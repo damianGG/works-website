@@ -3,7 +3,7 @@ import Image from "next/image";
 // GLOBAL CUSTOM COMPONENTS
 import NextLink from "../links/NextLink";
 // CUSTOM UTILS LIBRARY FUNCTIONS
-import currency from "utils/currency";
+import currency from "@/utils/currency";
 
 // ======================================================================
 interface ProductCard2Props {

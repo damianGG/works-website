@@ -1,4 +1,4 @@
-import { Link as ScrollLink } from "react-scroll";
+// import { Link as ScrollLink } from "react-scroll";
 // -------- data -------- //
 const linkList = [
   { id: 1, title: "Home", to: "home" },
@@ -14,9 +14,9 @@ export default function OnePageDemoLinks() {
     <ul className="navbar-nav">
       {linkList.map(({ id, title, to }) => (
         <li className="nav-item" key={id}>
-          <ScrollLink href="#" smooth spy activeClass="active" to={to} className="nav-link scroll">
-            {title}
-          </ScrollLink>
+          {/* <ScrollLink href="#" smooth spy activeClass="active" to={to} className="nav-link scroll"> */}
+          {title}
+          {/* </ScrollLink> */}
         </li>
       ))}
     </ul>

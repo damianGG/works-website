@@ -3,10 +3,10 @@ import Link from "next/link";
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
 import FigureImage from "./FigureImage";
-import NextLink from "components/reuseable/links/NextLink";
-import SocialLinks from "components/reuseable/SocialLinks";
+import NextLink from "@/components/reuseable/links/NextLink";
+import SocialLinks from "@/components/reuseable/SocialLinks";
 // CUSTOM DATA
-import data from "data/blog-sidebar";
+import data from "@/data/blog-sidebar";
 
 // ========================================================
 type BlogSidebarProps = { thumbnail?: string };

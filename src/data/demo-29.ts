@@ -1,19 +1,19 @@
-import BarChart from 'icons/solid/BarChart';
-import CloudNetwork2 from 'icons/solid/CloudNetwork2';
-import Controls from 'icons/solid/Controls';
-import Lock from 'icons/solid/Lock';
-import Rocket from 'icons/solid/Rocket';
-import Safe from 'icons/solid/Safe';
-import TouchScreen from 'icons/solid/TouchScreen';
-import Checked from 'icons/solid/Checked';
-import Calendar from 'icons/solid/Calendar';
-import Compare from 'icons/solid/Compare';
-import Currency from 'icons/solid/Currency';
-import Devices from 'icons/solid/Devices';
-import Search from 'icons/solid/Search';
-import Server from 'icons/solid/Server';
+import BarChart from '@/icons/solid/BarChart';
+import CloudNetwork2 from '@/icons/solid/CloudNetwork2';
+import Controls from '@/icons/solid/Controls';
+import Lock from '@/icons/solid/Lock';
+import Rocket from '@/icons/solid/Rocket';
+import Safe from '@/icons/solid/Safe';
+import TouchScreen from '@/icons/solid/TouchScreen';
+import Checked from '@/icons/solid/Checked';
+import Calendar from '@/icons/solid/Calendar';
+import Compare from '@/icons/solid/Compare';
+import Currency from '@/icons/solid/Currency';
+import Devices from '@/icons/solid/Devices';
+import Search from '@/icons/solid/Search';
+import Server from '@/icons/solid/Server';
 
-import color from 'utils/color';
+import color from '@/utils/color';
 
 export const features = [
   { id: 1, color: color.yellow, Icon: CloudNetwork2, title: 'Always up to Date' },

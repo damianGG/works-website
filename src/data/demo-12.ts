@@ -1,11 +1,11 @@
-import User from 'icons/lineal/User';
-import Gift from 'icons/lineal/Gift';
-import Check from 'icons/lineal/Check';
-import IdCard from 'icons/lineal/IdCard';
-import ChatTwo from 'icons/lineal/ChatTwo';
-import Browser from 'icons/lineal/Browser';
-import { LinkType } from 'types/demo-1';
-import BriefcaseTwo from 'icons/lineal/BriefcaseTwo';
+import User from '@/icons/lineal/User';
+import Gift from '@/icons/lineal/Gift';
+import Check from '@/icons/lineal/Check';
+import IdCard from '@/icons/lineal/IdCard';
+import ChatTwo from '@/icons/lineal/ChatTwo';
+import Browser from '@/icons/lineal/Browser';
+import { LinkType } from '@/types/demo-1';
+import BriefcaseTwo from '@/icons/lineal/BriefcaseTwo';
 
 const services = [
   {

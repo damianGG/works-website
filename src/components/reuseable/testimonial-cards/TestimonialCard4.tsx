@@ -1,7 +1,7 @@
 import Carousel from "../Carousel";
 import TestimonialCard2 from "./TestimonialCard2";
 // CUSTOM DATA
-import { testimonialList2 } from "data/testimonial-list";
+import { testimonialList2 } from "@/data/testimonial-list";
 
 // ============================================================
 interface TestimonialCard4Props {

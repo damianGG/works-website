@@ -2,11 +2,11 @@
 
 import { Fragment, useRef } from "react";
 // GLOBAL CUSTOM HOOKS
-import useSticky from "hooks/useSticky";
-import useNestedDropdown from "hooks/useNestedDropdown";
+import useSticky from "@/hooks/useSticky";
+import useNestedDropdown from "@/hooks/useNestedDropdown";
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "components/reuseable/links/NextLink";
-import SocialLinks from "components/reuseable/SocialLinks";
+import NextLink from "@/components/reuseable/links/NextLink";
+import SocialLinks from "@/components/reuseable/SocialLinks";
 // LOCAL CUSTOM COMPONENTS
 import BlogNavItem from "../components/blog-nav-item";
 import DemosNavItem from "../components/demos-nav-item";

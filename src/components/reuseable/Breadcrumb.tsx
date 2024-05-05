@@ -1,4 +1,4 @@
-import NextLink from "components/reuseable/links/NextLink";
+import NextLink from "@/components/reuseable/links/NextLink";
 
 // ========================================================
 interface BreadcrumbProps {

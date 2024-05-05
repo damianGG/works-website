@@ -3,7 +3,7 @@
 import Image from "next/image";
 import NextLink from "../links/NextLink";
 // GLOBAL CUSTOM HOOKS
-import useLightBox from "hooks/useLightBox";
+import useLightBox from "@/hooks/useLightBox";
 
 // ==============================================================================
 interface ProjectCard3Props {

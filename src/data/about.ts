@@ -1,8 +1,8 @@
 // -------- icons -------- //
-import Lamp from 'icons/solid-mono/Lamp';
-import Bulb from 'icons/solid-mono/Bulb';
-import Puzzle from 'icons/solid-mono/Puzzle';
-import Headphone from 'icons/solid-mono/Headphone';
+import Lamp from '@/icons/solid-mono/Lamp';
+import Bulb from '@/icons/solid-mono/Bulb';
+import Puzzle from '@/icons/solid-mono/Puzzle';
+import Headphone from '@/icons/solid-mono/Headphone';
 
 // =========================================================================
 

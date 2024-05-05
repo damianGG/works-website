@@ -1,7 +1,7 @@
-import Lamp from 'icons/solid-mono/Lamp';
-import Puzzle from 'icons/solid-mono/Puzzle';
-import PenTool from 'icons/solid-duo/PenTool';
-import DeliveryBox from 'icons/solid-mono/DeliveryBox';
+import Lamp from '@/icons/solid-mono/Lamp';
+import Puzzle from '@/icons/solid-mono/Puzzle';
+import PenTool from '@/icons/solid-duo/PenTool';
+import DeliveryBox from '@/icons/solid-mono/DeliveryBox';
 
 export const projects = [
   {

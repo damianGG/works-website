@@ -1,11 +1,11 @@
-import Puzzle from 'icons/lineal/Puzzle';
-import Browser from 'icons/lineal/Browser';
-import Pentool from 'icons/lineal/Pentool';
-import SearchTwo from 'icons/lineal/SearchTwo';
-import Smartphone from 'icons/lineal/Smartphone';
-import VideoEditing from 'icons/lineal/VideoEditing';
+import Puzzle from '@/icons/lineal/Puzzle';
+import Browser from '@/icons/lineal/Browser';
+import Pentool from '@/icons/lineal/Pentool';
+import SearchTwo from '@/icons/lineal/SearchTwo';
+import Smartphone from '@/icons/lineal/Smartphone';
+import VideoEditing from '@/icons/lineal/VideoEditing';
 
-import color from 'utils/color';
+import color from '@/utils/color';
 
 export const services = [
   {

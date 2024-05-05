@@ -2,16 +2,16 @@
 
 import { Fragment, useRef } from "react";
 // GLOBAL CUSTOM HOOKS
-import useSticky from "hooks/useSticky";
-import useNestedDropdown from "hooks/useNestedDropdown";
+import useSticky from "@/hooks/useSticky";
+import useNestedDropdown from "@/hooks/useNestedDropdown";
 // LOCAL CUSTOM COMPONENTS
 import Info from "../components/Info";
 import Search from "../components/search";
 import Navigation from "../components/navigation";
 import OnePageDemoLinks from "../components/one-page-demo-links";
 // GLOBAL CUSTOM COMPONENTS
-import NextLink from "components/reuseable/links/NextLink";
-import SocialLinks from "components/reuseable/SocialLinks";
+import NextLink from "@/components/reuseable/links/NextLink";
+import SocialLinks from "@/components/reuseable/SocialLinks";
 
 // ===================================================================
 type Navbar4Props = { navClassName?: string; onePageDemo?: boolean };

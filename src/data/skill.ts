@@ -1,4 +1,4 @@
-import color from 'utils/color';
+import color from '@/utils/color';
 
 export const skill1 = [
   { id: 1, percent: 100, title: 'Web Design', color: color.violet },

@@ -1,9 +1,9 @@
-import Alarm from 'icons/solid-mono/Alarm';
-import Share from 'icons/solid-mono/Share';
-import Target from 'icons/solid-mono/Target';
-import Wallet from 'icons/solid-mono/Wallet';
-import VideoCall from 'icons/solid-mono/VideoCall';
-import PartnerShip from 'icons/solid-mono/PartnerShip';
+import Alarm from '@/icons/solid-mono/Alarm';
+import Share from '@/icons/solid-mono/Share';
+import Target from '@/icons/solid-mono/Target';
+import Wallet from '@/icons/solid-mono/Wallet';
+import VideoCall from '@/icons/solid-mono/VideoCall';
+import PartnerShip from '@/icons/solid-mono/PartnerShip';
 
 const facilities = [
   {
