@@ -1,5 +1,6 @@
 import { ProcessList1 } from "@/components/reuseable/process-list";
-import { processList1 } from "@/data/process";
+import DownloadList from "@/components/reuseable/process-list/DownloadList";
+import { doPobrania2, processList1 } from "@/data/process";
 import { doPobrania } from "@/data/process";
 import Link from "next/link";
 
@@ -25,7 +26,7 @@ export default function Process7() {
           <div className="col-lg-6">
             <h2 className="display-6 mb-3">Jak to działa?</h2>
             <p className="lead fs-lg pe-lg-5">
-              Find out everything you need to know and more about how we create our business process models.
+
             </p>
 
             <p>
@@ -53,7 +54,7 @@ export default function Process7() {
           </div>
         </div>
       </div>
-      <div className="container pt-15 pt-md-17 pb-13 pb-md-15">
+      <div className="container pt-10 pt-md-10 pb-13 pb-md-15">
 
         <div className="row mb-5">
           <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
@@ -66,10 +67,32 @@ export default function Process7() {
                 <ProcessList1 {...item} key={item.no} />
               ))}
             </div>
+
+
           </div>
         </div>
         <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt">Biurem projektu</Link> </p>
       </div>
+      <div className="container pt-10 pt-md-10 pb-13 pb-md-15">
+
+        <div className="row mb-5">
+          <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
+
+            <h2 className="display-4 mb-4 px-lg-14">Dokumenty do pobrania</h2>
+            <div className="col-lg-12 order-lg-2">
+              {doPobrania2.map((item) => (
+                <DownloadList {...item} key={item.no} />
+              ))}
+            </div>
+
+
+          </div>
+        </div>
+        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt">Biurem projektu</Link> </p>
+      </div>
+
+
+
     </>
 
 

@@ -1,14 +1,24 @@
 import Link from "next/link";
 // CUSTOM UTILS
 import { slideInDownAnimate } from "@/utils/animation";
+import Image from "next/image";
 
 export default function Hero4() {
   return (
     <section className="wrapper bg-light position-relative min-vh-70 d-lg-flex align-items-center">
-      <div
-        style={{ backgroundImage: "url(/img/photos/about16.jpg)" }}
+      {/* <div
+        style={{ backgroundImage: "url(/img/photos/dietetyk.jpg)" }}
+        className="rounded-4-lg-start col-lg-6 order-lg-2 position-lg-absolute top-0 end-0 image-wrapper bg-image bg-cover h-100 min-vh-50"
+      /> */}
+
+      <Image
+        src="/img/photos/dietetyk.jpg"
+        alt="Image description"
+        width={500}
+        height={500}
         className="rounded-4-lg-start col-lg-6 order-lg-2 position-lg-absolute top-0 end-0 image-wrapper bg-image bg-cover h-100 min-vh-50"
       />
+
 
       <div className="container">
         <div className="row">
@@ -25,11 +35,11 @@ export default function Hero4() {
                 className="d-flex justify-content-center justify-content-lg-start"
                 style={slideInDownAnimate("900ms")}>
                 <span style={slideInDownAnimate("1200ms")}>
-                  <Link href="#" title="Explore Now" className="btn btn-lg btn-primary rounded-pill me-2" >Zapisz się</Link>
+                  <Link href="/rekrutacja" title="Zapisz sie" className="btn btn-lg btn-primary rounded-pill me-2" >Zapisz się</Link>
                 </span>
 
                 <span style={slideInDownAnimate("1500ms")}>
-                  <Link href="#" title="Contact Us" className="btn btn-lg btn-outline-primary rounded-pill" >Aktualności</Link>
+                  <Link href="/aktualnosci" title="Aktualności" className="btn btn-lg btn-outline-primary rounded-pill" >Aktualności</Link>
                 </span>
               </div>
             </div>

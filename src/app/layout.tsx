@@ -5,6 +5,8 @@ import "@/assets/scss/style.scss";
 import NavbarOne from "@/components/blocks/navbar/navbar-1/NavbarOne";
 import Toplogo from "@/components/blocks/navbar/top-logo/Toplogo";
 import Footer2 from "@/components/blocks/footer/Footer2";
+import Link from "next/link";
+
 
 
 const manrope = Manrope({ subsets: ["latin"] });
@@ -22,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={manrope.className}>
-        <NavbarOne />
+        <NavbarOne button={<Link title="Contact" href="/rekrutacja" className="btn btn-sm btn-primary rounded-pill">Zapisz się</Link>} />
         <div>{children}</div>
         <Footer2 />
       </body>

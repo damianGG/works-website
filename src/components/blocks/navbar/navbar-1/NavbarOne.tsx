@@ -6,18 +6,11 @@ import useSticky from "@/hooks/useSticky";
 import useNestedDropdown from "@/hooks/useNestedDropdown";
 // -------- CUSTOM COMPONENTS -------- //
 //import NextLink from "@/components/reuseable/links/Link";
-import SocialLinks from "@/components/reuseable/SocialLinks";
-
+import Image from "next/image";
 import Link from "next/link";
 // LOCAL CUSTOM COMPONENTS
 import HeaderRight from "../components/header-right";
 import FancyHeader from "../components/fancy-header";
-import BlogNavItem from "../components/blog-nav-item";
-import DemosNavItem from "../components/demos-nav-item";
-import PagesNavItem from "../components/pages-nav-item";
-import BlocksNavItem from "../components/blocks-nav-item";
-import ProjectsNavItem from "../components/projects-nav-item";
-import DocumentationNavItem from "../components/documentation-nav-item";
 import Toplogo from "../top-logo/Toplogo";
 
 // ===================================================================
@@ -54,7 +47,7 @@ export default function NavbarOne({
   const navbarRef = useRef<HTMLElement | null>(null);
 
   // dynamically render the logo
-  const logo = sticky ? "logo-dark" : logoAlt ?? "logo-dark";
+
 
   // dynamically added navbar className
   const fixedClassName = "navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed ";
@@ -63,7 +56,15 @@ export default function NavbarOne({
   const headerContent = (
     <Fragment>
       <div className="navbar-brand w-100">
-        <Link href="/" />
+        <Link href="/" >
+          <Image
+            src="/img/logos/Jp_logo_witout_background.png"
+            width={150}
+            height={50}
+            alt="logo"
+          />
+
+        </Link>
       </div>
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -73,7 +74,7 @@ export default function NavbarOne({
         </div>
 
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav fs-15">
             {/* <PagesNavItem /> */}
             <Link className="nav-link" href="/o-projekcie">O Projekcie</Link>
             <Link className="nav-link" href="/aktualnosci">Aktualnosci</Link>
@@ -88,7 +89,7 @@ export default function NavbarOne({
               <br />
               <Link href="tel:0123456789" title="00 (123) 456 78 90" />
               <br />
-              <SocialLinks />
+              {/* <SocialLinks /> */}
             </div>
           </div>
         </div>

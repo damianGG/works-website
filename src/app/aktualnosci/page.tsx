@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 export default function News() {
     return (
@@ -14,139 +15,32 @@ export default function News() {
             <div className="container mb-15 mt-15">
                 <div className="row gx-0 gx-md-3 gx-xl-8 gy-8 align-items-center">
                     <div className="col-md-4">
-                        <div className="card ">
-                            <div className="card-body">
-                                <div className="post-header">
-                                    <h2 className="post-title h3 mt-1 mb-3"><a className="link-dark" href="/blog-1#">Ultricies fusce porta elit</a></h2>
-                                </div>
-                                <div className="post-content">
-                                    <p>Mauris convallis non ligula non interdum.
-                                        Gravida vulputate convallis tempus vestibulum cras
-                                        imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.
-                                    </p>
-                                </div>
 
+                        <Link href="/aktualnosci/1">
+                            <div className="card ">
+                                <div className="card-body">
+                                    <div className="post-header">
+                                        <h2 className="post-title h3 mt-1 mb-3">Rusza I tura naboru do projektu „Kobieta * Aktywność * Sukces”</h2>
+                                    </div>
+                                    <div className="post-content">
+                                        <p>Zapraszamy niepracujące kobiety w wieku 18-59 lat, zamieszkujące miasto Radom lub gminę
+                                            Wieniawa do udziału w projekcie „Kobieta * Aktywność * Sukces”.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div className="card-footer">
+                                    <ul className="post-meta d-flex mb-0">
+                                        <li className="post-date">
+                                            <i className="uil uil-calendar-alt">
+                                            </i>
+                                            <span>14 wrzesień 2022</span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div className="card-footer">
-                                <ul className="post-meta d-flex mb-0">
-                                    <li className="post-date">
-                                        <i className="uil uil-calendar-alt">
-                                        </i>
-                                        <span>14 Apr 2022</span>
-                                    </li>
-                                    <li className="post-comments">
-                                        <a href="/blog-1#">
-                                            <i className="uil uil-comment">
-                                            </i>4</a></li>
-                                    <li className="post-likes ms-auto">
-                                        <a href="/blog-1#"><i className="uil uil-heart-alt">
-                                        </i>5</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        </Link>
                     </div>
-                    <div className="col-md-4">
-                        <div className="card ">
-                            <div className="card-body">
-                                <div className="post-header">
-                                    <h2 className="post-title h3 mt-1 mb-3"><a className="link-dark" href="/blog-1#">Ultricies fusce porta elit</a></h2>
-                                </div>
-                                <div className="post-content">
-                                    <p>Mauris convallis non ligula non interdum.
-                                        Gravida vulputate convallis tempus vestibulum cras
-                                        imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.
-                                    </p>
-                                </div>
-
-                            </div>
-                            <div className="card-footer">
-                                <ul className="post-meta d-flex mb-0">
-                                    <li className="post-date">
-                                        <i className="uil uil-calendar-alt">
-                                        </i>
-                                        <span>14 Apr 2022</span>
-                                    </li>
-                                    <li className="post-comments">
-                                        <a href="/blog-1#">
-                                            <i className="uil uil-comment">
-                                            </i>4</a></li>
-                                    <li className="post-likes ms-auto">
-                                        <a href="/blog-1#"><i className="uil uil-heart-alt">
-                                        </i>5</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="card ">
-                            <div className="card-body">
-                                <div className="post-header">
-                                    <h2 className="post-title h3 mt-1 mb-3"><a className="link-dark" href="/blog-1#">Ultricies fusce porta elit</a></h2>
-                                </div>
-                                <div className="post-content">
-                                    <p>Mauris convallis non ligula non interdum.
-                                        Gravida vulputate convallis tempus vestibulum cras
-                                        imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.
-                                    </p>
-                                </div>
-
-                            </div>
-                            <div className="card-footer">
-                                <ul className="post-meta d-flex mb-0">
-                                    <li className="post-date">
-                                        <i className="uil uil-calendar-alt">
-                                        </i>
-                                        <span>14 Apr 2022</span>
-                                    </li>
-                                    <li className="post-comments">
-                                        <a href="/blog-1#">
-                                            <i className="uil uil-comment">
-                                            </i>4</a></li>
-                                    <li className="post-likes ms-auto">
-                                        <a href="/blog-1#"><i className="uil uil-heart-alt">
-                                        </i>5</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="card ">
-                            <div className="card-body">
-                                <div className="post-header">
-                                    <h2 className="post-title h3 mt-1 mb-3"><a className="link-dark" href="/blog-1#">Ultricies fusce porta elit</a></h2>
-                                </div>
-                                <div className="post-content">
-                                    <p>Mauris convallis non ligula non interdum.
-                                        Gravida vulputate convallis tempus vestibulum cras
-                                        imperdiet nun eu dolor. Aenean lacinia bibendum nulla sed.
-                                    </p>
-                                </div>
-
-                            </div>
-                            <div className="card-footer">
-                                <ul className="post-meta d-flex mb-0">
-                                    <li className="post-date">
-                                        <i className="uil uil-calendar-alt">
-                                        </i>
-                                        <span>14 Apr 2022</span>
-                                    </li>
-                                    <li className="post-comments">
-                                        <a href="/blog-1#">
-                                            <i className="uil uil-comment">
-                                            </i>4</a></li>
-                                    <li className="post-likes ms-auto">
-                                        <a href="/blog-1#"><i className="uil uil-heart-alt">
-                                        </i>5</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
 
                 </div>
 

@@ -81,6 +81,52 @@ export const doPobrania = [
   
 
 ];
+export const doPobrania2 = [
+  {
+    no: "",
+    className: "me-lg-6 text-start",
+    title: "Załącznik nr 1 Formularz zgłoszeniowy",
+    subtitle: ""
+  },
+  {
+    no: "2",
+    title: "Załącznik nr 2 Klauzula informacyjna IZ",
+    className: "me-lg-6 mt-6 text-start",
+    subtitle: ""
+  },
+  {
+    no: "3",
+    title: "Załącznik nr 3 Klauzula informacyjna IP",
+    className: "me-lg-6 mt-6 text-start",
+    subtitle: ""
+  },
+  {
+    no: "4",
+    title: "Załącznik nr 4 Oświadczenia o aktualności kryteriów kwalifikacyjnych związanych z udziałemw projekcie",
+    className: "me-lg-6 mt-6 text-start",
+    subtitle: ""
+  },
+  {
+    no: "5",
+    title: "Załącznik nr 5 Deklaracja uczestnictwa w projekcie",
+    className: "me-lg-6 mt-6 text-start",
+    subtitle: ""
+  },
+  {
+    no: "6",
+    title: "Załącznik nr 7 Wniosek Uczestniczki projektu o zwrot kosztów opieki nad dzieckiem lub osobą wymagającą wsparcia w codziennym funkcjonowaniu",
+    className: "me-lg-6 mt-6 text-start",
+    subtitle: ""
+  },
+  {
+    no: "7",
+    title: "Załącznik nr 8 Oświadczenie Uczestniczki projektu o niewystępowaniu podwójnego finansowania kosztów opieki nad dzieckiem lub osobą wymagającą wsparcia w codziennym funkcjonowaniu",
+    className: "me-lg-6 mt-6 text-start",
+    subtitle: ""
+  },
+  
+
+];
 
 // used in the process-6 block
 export const processList2 = [
