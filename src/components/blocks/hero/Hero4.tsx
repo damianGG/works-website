@@ -6,18 +6,12 @@ import Image from "next/image";
 export default function Hero4() {
   return (
     <section className="wrapper bg-light position-relative min-vh-70 d-lg-flex align-items-center">
-      {/* <div
-        style={{ backgroundImage: "url(/img/photos/dietetyk.jpg)" }}
-        className="rounded-4-lg-start col-lg-6 order-lg-2 position-lg-absolute top-0 end-0 image-wrapper bg-image bg-cover h-100 min-vh-50"
-      /> */}
-
-      <Image
-        src="/img/photos/dietetyk.jpg"
-        alt="Image description"
-        width={500}
-        height={500}
+      <div
+        style={{ backgroundImage: "url(/img/photos/dietetyk_1000x666.webp)" }}
         className="rounded-4-lg-start col-lg-6 order-lg-2 position-lg-absolute top-0 end-0 image-wrapper bg-image bg-cover h-100 min-vh-50"
       />
+
+
 
 
       <div className="container">
