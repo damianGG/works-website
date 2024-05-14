@@ -12,7 +12,7 @@ import Link from "next/link";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "J&P",
+  title: "Projekt Kobieta-Aktywność-Sukces",
   description: "Projekt Kobieta - Aktywność - Sukces",
 };
 
@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pl">
       <body className={manrope.className}>
         <NavbarOne button={<Link title="Contact" href="/rekrutacja" className="btn btn-sm btn-primary rounded-pill">Zapisz się</Link>} />
         <div>{children}</div>

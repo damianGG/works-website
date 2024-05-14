@@ -34,7 +34,7 @@ export default function News() {
                                         <li className="post-date">
                                             <i className="uil uil-calendar-alt">
                                             </i>
-                                            <span>14 wrzesień 2022</span>
+                                            <span>01 kwiecień 2024</span>
                                         </li>
                                     </ul>
                                 </div>

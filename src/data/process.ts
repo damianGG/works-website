@@ -85,7 +85,7 @@ export const doPobrania2 = [
   {
     no: "",
     className: "me-lg-6 text-start",
-    title: "Załącznik nr 1 Formularz zgłoszeniowy",
+    title: "Załącznik nr 1 Formularz rekrutacyjny",
     subtitle: ""
   },
   {
@@ -102,7 +102,7 @@ export const doPobrania2 = [
   },
   {
     no: "4",
-    title: "Załącznik nr 4 Oświadczenia o aktualności kryteriów kwalifikacyjnych związanych z udziałemw projekcie",
+    title: "Załącznik nr 4 Oświadczenie o aktualności kryteriów kwalifikacyjnych wraz z Deklaracją uczestnictwa w projekcie",
     className: "me-lg-6 mt-6 text-start",
     subtitle: ""
   },
@@ -114,13 +114,19 @@ export const doPobrania2 = [
   },
   {
     no: "6",
-    title: "Załącznik nr 7 Wniosek Uczestniczki projektu o zwrot kosztów opieki nad dzieckiem lub osobą wymagającą wsparcia w codziennym funkcjonowaniu",
+    title: "Załącznik nr 6 Wniosek o zwrot kosztów dojazdu",
     className: "me-lg-6 mt-6 text-start",
     subtitle: ""
   },
   {
     no: "7",
-    title: "Załącznik nr 8 Oświadczenie Uczestniczki projektu o niewystępowaniu podwójnego finansowania kosztów opieki nad dzieckiem lub osobą wymagającą wsparcia w codziennym funkcjonowaniu",
+    title: "Załącznik nr 7 Wniosek o zwrot kosztów opieki nad dzieckiem lub osobą wymagającą wsparcia w codziennym funkcjonowaniu",
+    className: "me-lg-6 mt-6 text-start",
+    subtitle: ""
+  },
+  {
+    no: "8",
+    title: "Załącznik nr 8 Oświadczenie o niewystępowaniu podwójnego finansowania kosztów opieki nad dzieckiem lub osobą wymagającą wsparcia w codziennym funkcjonowaniu",
     className: "me-lg-6 mt-6 text-start",
     subtitle: ""
   },

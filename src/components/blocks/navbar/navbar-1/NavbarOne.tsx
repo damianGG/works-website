@@ -11,6 +11,7 @@ import Link from "next/link";
 // LOCAL CUSTOM COMPONENTS
 import HeaderRight from "../components/header-right";
 import FancyHeader from "../components/fancy-header";
+import JPLogo from "../../../../../public/img/logos/Jp_logo_witout_background.png";
 import Toplogo from "../top-logo/Toplogo";
 
 // ===================================================================
@@ -58,28 +59,32 @@ export default function NavbarOne({
       <div className="navbar-brand w-100">
         <Link href="/" >
           <Image
-            src="/img/logos/Jp_logo_witout_background.png"
-            width={150}
-            height={50}
-            alt="logo"
-          />
+            src={JPLogo}
 
+            alt="logo firmy JP"
+
+            style={{
+              width: '100%',
+              height: 'auto',
+              maxWidth: '150px',
+            }}
+          />
         </Link>
       </div>
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         <div className="offcanvas-header d-lg-none">
-          <h3 className="text-white fs-30 mb-0">Sandbox</h3>
+          <h3 className="text-white fs-30 mb-0">J&P</h3>
           <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-white" />
         </div>
 
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
-          <ul className="navbar-nav fs-15">
+          <ul className="navbar-nav ">
             {/* <PagesNavItem /> */}
-            <Link className="nav-link" href="/o-projekcie">O Projekcie</Link>
-            <Link className="nav-link" href="/aktualnosci">Aktualnosci</Link>
-            <Link className="nav-link" href="/rekrutacja">Rekrutacja</Link>
-            <Link className="nav-link" href="/kontakt">Kontakt</Link>
+            <Link className="nav-link fs-20" href="/o-projekcie">O Projekcie</Link>
+            <Link className="nav-link fs-20" href="/aktualnosci">Aktualności</Link>
+            <Link className="nav-link fs-20" href="/rekrutacja">Rekrutacja</Link>
+            <Link className="nav-link fs-20" href="/kontakt">Kontakt</Link>
           </ul>
 
           {/* ============= show contact info in the small device sidebar ============= */}

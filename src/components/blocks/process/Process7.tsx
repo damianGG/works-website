@@ -71,14 +71,29 @@ export default function Process7() {
 
           </div>
         </div>
-        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt">Biurem projektu</Link> </p>
+        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt" className="link-primary">biurem projektu.</Link> </p>
       </div>
       <div className="container pt-10 pt-md-10 pb-13 pb-md-15">
 
         <div className="row mb-5">
           <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
 
-            <h2 className="display-4 mb-4 px-lg-14">Dokumenty do pobrania</h2>
+            <h2 className="display-4 mb-10 px-lg-14">Dokumenty do pobrania</h2>
+            <div className="d-flex flex-column align-items-start">
+              <p>
+                <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4">
+                  <span className="number"><i className="uil uil-file-download fs-40"></i></span>
+                </span>
+                - pobrania pliku w wersji kolorowej
+              </p>
+              <p>
+                <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4" style={{ backgroundColor: "white" }}>
+                  <span className="number" style={{ color: "black" }}><i className="uil uil-file-download fs-40"></i></span>
+                </span>
+                - pobrania pliku w wersji czarno-białej
+              </p>
+            </div>
+            <p>Prosimy o drukowanie dokumentów rekrutacyjnych w kolorze. Wersja czarno-biała dotyczy sytuacji braku możliwości wydruku w kolorze.</p>
             <div className="col-lg-12 order-lg-2">
               {doPobrania2.map((item) => (
                 <DownloadList {...item} key={item.no} />
@@ -88,7 +103,7 @@ export default function Process7() {
 
           </div>
         </div>
-        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt">Biurem projektu</Link> </p>
+        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt" className="link-primary">biurem projektu.</Link> </p>
       </div>
 
 

@@ -26,7 +26,7 @@ export default function BlogDetailsTemplate() {
                                 <ul className="post-meta mb-5">
                                     <li className="post-date">
                                         <i className="uil uil-calendar-alt" />
-                                        <span>08 maj 2024</span>
+                                        <span>01 kwiecień 2024</span>
                                     </li>
 
                                 </ul>

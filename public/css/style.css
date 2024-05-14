@@ -5767,6 +5767,7 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  align-items: center;
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
@@ -6168,6 +6169,8 @@ fieldset:disabled .btn {
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
   box-shadow: var(--bs-card-box-shadow);
+
+  border: solid 1px var(--bs-gray-700);
 }
 .card > hr {
   margin-right: 0;
@@ -8195,7 +8198,7 @@ fieldset:disabled .btn {
 .offcanvas-md,
 .offcanvas-sm {
   --bs-offcanvas-zindex: 1045;
-  --bs-offcanvas-width: 15rem;
+  --bs-offcanvas-width: 100vw;
   --bs-offcanvas-height: 30vh;
   --bs-offcanvas-padding-x: 1.5rem;
   --bs-offcanvas-padding-y: 1.5rem;
@@ -37421,6 +37424,7 @@ button.hamburger span {
   padding-bottom: 1.5rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .offcanvas-header .btn-close {
   margin: 0;

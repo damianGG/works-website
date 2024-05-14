@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Kontakt() {
     return (
@@ -36,7 +37,7 @@ export default function Kontakt() {
                     <div className="col text-center">
                         <h2>Siedziba J&P Moritz Consulting Group Jacek Poproch</h2>
                         <p><strong>Adres:</strong> ul. Plac Solny 14 lok. 3, 50-062 Wrocław</p>
-                        <p><strong>WWW:</strong> www.ipmcg.pl</p>
+                        <p><strong>Strona:</strong><Link href="http://jpmcg.pl" className="link-primary" target="_blank">www.jpmcg.pl</Link></p>
                         <p><strong>Tel:</strong> +48 531 954 000</p>
                         <p><strong>E-mail:</strong> biuro@jpmcg.pl</p>
                     </div>

@@ -5,7 +5,7 @@
 
 export default function About6() {
   return (
-    <div className="container pt-15 pt-md-17 pb-13 pb-md-15 mb-n14 mb-md-n17" style={{ maxWidth: "56rem" }}>
+    <div className="container pt-15 pt-md-17 pb-13 pb-md-15 mb-n14 mb-md-n17" style={{ maxWidth: "56rem" }} data-bs-theme='dark'>
 
       <div className="row gx-lg-8 gx-xl-12 gy-10 mb-5  align-items-center ">
         <div className="col-lg-6 position-relative order-lg-2">
@@ -33,7 +33,7 @@ export default function About6() {
           <div className="row gy-3 ">
             <div className="col-xl-6">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li><i className="uil uil-check"></i> spotkania z doradcą zawodowym</li>
+                <li className="mt-3"><i className="uil uil-check"></i> spotkania z doradcą zawodowym</li>
                 <li className="mt-3"><i className="uil uil-check"></i>szkolenia aktywizujące</li>
                 <li className="mt-3"><i className="uil uil-check"></i>szkolenia zawodowe niezbędne w zawodach związanych z usługami zdrowotnymi i
                   opiekuńczymi</li>

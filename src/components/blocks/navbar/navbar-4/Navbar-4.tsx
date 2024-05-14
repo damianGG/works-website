@@ -98,6 +98,7 @@ export default function Navbar4({
 
                 <li className="nav-item d-lg-none">
                   <button
+                    aria-label="Toggle navigation"
                     data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvas-nav"
                     className="hamburger offcanvas-nav-btn">

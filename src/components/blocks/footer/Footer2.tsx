@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 
@@ -17,19 +18,16 @@ export default function Footer2() {
             <div className="row mb-3">
               <div className="col-md-4">
                 <div className="widget">
-                  <h4 className="widget-title">Adres (biuro projektu)</h4>
+                  <h4 className="widget-title"><i className="uil uil-map me-2 fs-25" ></i> Adres (biuro projektu)</h4>
                   <address>
                     ul. Grzecznarowskiego 2, pok. 204 (II piętro) <br className="d-none d-md-block" /> 26-600 Radom
                   </address>
-                  <p>Biuro projektu czynne jest od poniedziałku do piątku w godzinach 8:00 – 16:00
-
-                    (istnieje możliwość umówienia się na inne godziny spotkania)</p>
                 </div>
               </div>
 
               <div className="col-md-4">
                 <div className="widget">
-                  <h4 className="widget-title">Telefon</h4>
+                  <h4 className="widget-title"><i className="uil uil-phone-alt me-2 fs-25"></i>Telefon</h4>
                   <p>
                     +48 881 500 075 <br />
                   </p>
@@ -38,11 +36,11 @@ export default function Footer2() {
 
               <div className="col-md-4">
                 <div className="widget">
-                  <h4 className="widget-title">E-mail</h4>
+                  <h4 className="widget-title"><i className="uil uil-envelope fs-25 me-2 "></i> e-mail</h4>
 
-                  <a href="mailto:aktywnekobiety@jpmcg.pl" className="link-body">
+                  <Link href="mailto:aktywnekobiety@jpmcg.pl" className="link-primary">
                     aktywnekobiety@jpmcg.pl
-                  </a>
+                  </Link>
                   <br className="d-none d-md-block" />
 
 
@@ -50,11 +48,13 @@ export default function Footer2() {
               </div>
             </div>
 
-            <p>J&P Moritz Consulting All Group Jacek Poproch rights reserved.</p>
+            <p>Biuro projektu czynne jest od poniedziałku do piątku w godzinach 8:00 – 16:00
 
+              (istnieje możliwość umówienia się na inne godziny spotkania)</p>
 
           </div>
         </div>
+        <p className="fs-15">J&P Moritz Consulting All Group Jacek Poproch rights reserved.</p>
       </div>
     </footer>
   );
