@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, ReactElement, useRef } from "react";
+import { Fragment, ReactElement, SetStateAction, useRef } from "react";
 // -------- CUSTOM HOOKS -------- //
 import useSticky from "@/hooks/useSticky";
 import useNestedDropdown from "@/hooks/useNestedDropdown";
@@ -13,6 +13,8 @@ import HeaderRight from "../components/header-right";
 import FancyHeader from "../components/fancy-header";
 import JPLogo from "../../../../../public/img/logos/Jp_logo_witout_background.png";
 import Toplogo from "../top-logo/Toplogo";
+import ColorModeSwitcher from "@/components/reuseable/ColorModeSwitcher";
+import Switch from "@/components/reuseable/Switch";
 
 // ===================================================================
 interface NavbarProps {
@@ -87,6 +89,7 @@ export default function NavbarOne({
             <Link className="nav-link fs-20" href="/kontakt">Kontakt</Link>
           </ul>
 
+
           {/* ============= show contact info in the small device sidebar ============= */}
           <div className="offcanvas-footer d-lg-none">
             <div>
@@ -110,6 +113,7 @@ export default function NavbarOne({
         language={language}
         navOtherClass={navOtherClass}
       />
+      <ColorModeSwitcher />
     </Fragment>
   );
 
@@ -123,6 +127,7 @@ export default function NavbarOne({
           <FancyHeader>{headerContent}</FancyHeader>
         ) : (
           <div className="container flex-lg-row flex-nowrap align-items-center">{headerContent}</div>
+
         )}
       </nav>
     </Fragment>

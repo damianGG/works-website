@@ -51,7 +51,7 @@ export default function News() {
                     <div className="col-lg-6">
 
 
-                        <h2 className="display-4 mb-3"></h2>
+                        <p className="display-6 mb-3">Udział w projekcie obejmuje następujące elementy:</p>
 
                         <p className="lead fs-lg">
                             Diagnoza sytuacji Uczestniczki projektu na rynku pracy zgodnie
@@ -160,7 +160,7 @@ export default function News() {
                     <div className="col-lg-6 position-relative order-lg-1">
 
                         <div className="overlap-grid overlap-grid-2">
-
+                            <div className="shape bg-dot primary rellax w-16 h-20" style={{ top: "14rem", left: "-2.5rem", zIndex: "-1" }} />
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
@@ -171,7 +171,7 @@ export default function News() {
                                     />
                                 </figure>
                             </div>
-                            <div className="shape bg-dot primary rellax w-16 h-20" style={{ top: "14rem", left: "-2.5rem", zIndex: "-1" }} />
+
 
                         </div>
                     </div>

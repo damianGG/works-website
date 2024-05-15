@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import styles from "./page.module.css";
 import NavbarOne from "@/components/blocks/navbar/navbar-1/NavbarOne";
@@ -9,7 +11,6 @@ export default function Home() {
   return (
     <main >
       <div className="mt-10">
-        {/* <Hero4 /> */}
         <Hero4 />
         <About6 />
       </div>

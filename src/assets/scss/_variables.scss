@@ -10,133 +10,61 @@ $enable-negative-margins: true !default;
 //	SPACING
 //----------------------------------------------------------//
 $spacer: 1rem !default;
-$spacers: () !default;
-$spacers: map-merge(
-  (
-    0: 0,
-    1: (
-      $spacer * 0.25
+$spacers: (
+  ) !default;
+$spacers: map-merge((0: 0,
+      1: ($spacer * 0.25),
+      // 5px
+      2: ($spacer * 0.5),
+      // 10px
+      3: ($spacer * 0.75),
+      // 15px
+      4: $spacer,
+      // 20px
+      5: ($spacer * 1.25),
+      // 25px
+      6: ($spacer * 1.5),
+      // 30px
+      7: ($spacer * 1.75),
+      // 35px
+      8: ($spacer * 2),
+      // 40px
+      9: ($spacer * 2.25),
+      // 45px
+      10: ($spacer * 2.5),
+      // 50px
+      11: ($spacer * 3),
+      // 60px
+      12: ($spacer * 3.5),
+      // 70x
+      13: ($spacer * 4),
+      // 80px
+      14: ($spacer * 4.5),
+      // 90px
+      15: ($spacer * 5),
+      // 100px
+      16: ($spacer * 6),
+      // 120px
+      17: ($spacer * 7),
+      // 140px
+      18: ($spacer * 8),
+      // 160px
+      19: ($spacer * 9),
+      // 180px
+      20: ($spacer * 10),
+      // 200px
+      21: ($spacer * 12.5),
+      // 250px
+      22: ($spacer * 15),
+      // 300px
+      23: ($spacer * 17.5),
+      // 350px
+      24: ($spacer * 20),
+      // 400px
+      25: ($spacer * 22.5),
+      // 450px
     ),
-    // 5px
-    2:
-      (
-        $spacer * 0.5
-      ),
-    // 10px
-    3:
-      (
-        $spacer * 0.75
-      ),
-    // 15px
-    4: $spacer,
-    // 20px
-    5:
-      (
-        $spacer * 1.25
-      ),
-    // 25px
-    6:
-      (
-        $spacer * 1.5
-      ),
-    // 30px
-    7:
-      (
-        $spacer * 1.75
-      ),
-    // 35px
-    8:
-      (
-        $spacer * 2
-      ),
-    // 40px
-    9:
-      (
-        $spacer * 2.25
-      ),
-    // 45px
-    10:
-      (
-        $spacer * 2.5
-      ),
-    // 50px
-    11:
-      (
-        $spacer * 3
-      ),
-    // 60px
-    12:
-      (
-        $spacer * 3.5
-      ),
-    // 70x
-    13:
-      (
-        $spacer * 4
-      ),
-    // 80px
-    14:
-      (
-        $spacer * 4.5
-      ),
-    // 90px
-    15:
-      (
-        $spacer * 5
-      ),
-    // 100px
-    16:
-      (
-        $spacer * 6
-      ),
-    // 120px
-    17:
-      (
-        $spacer * 7
-      ),
-    // 140px
-    18:
-      (
-        $spacer * 8
-      ),
-    // 160px
-    19:
-      (
-        $spacer * 9
-      ),
-    // 180px
-    20:
-      (
-        $spacer * 10
-      ),
-    // 200px
-    21:
-      (
-        $spacer * 12.5
-      ),
-    // 250px
-    22:
-      (
-        $spacer * 15
-      ),
-    // 300px
-    23:
-      (
-        $spacer * 17.5
-      ),
-    // 350px
-    24:
-      (
-        $spacer * 20
-      ),
-    // 400px
-    25:
-      (
-        $spacer * 22.5
-      ),
-    // 450px
-  ),
-  $spacers
+    $spacers
 );
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
 //----------------------------------------------------------//
@@ -185,22 +113,18 @@ $colors: (
   'light': $light,
   'gray': $gray,
   'dark': $dark,
-  'primary': $primary
-) !default;
+  'primary': $primary) !default;
 $secondary: $gray-400 !default;
 $success: $green !default;
 $info: $aqua !default;
 $warning: $yellow !default;
 $danger: $red !default;
-$theme-colors: map-merge(
-  $colors,
-  (
-    'secondary': $secondary,
-    'success': $success,
-    'info': $info,
-    'warning': $warning,
-    'danger': $danger
-  )
+$theme-colors: map-merge($colors,
+    ('secondary': $secondary,
+      'success': $success,
+      'info': $info,
+      'warning': $warning,
+      'danger': $danger )
 );
 $text-colors: map-remove($theme-colors, 'dark') !default;
 $link-colors: map-remove($theme-colors, 'dark') !default;
@@ -237,8 +161,7 @@ $gradients: (
   gradient-6: $gradient-6,
   gradient-7: $gradient-7,
   gradient-8: $gradient-8,
-  gradient-9: $gradient-9
-) !default;
+  gradient-9: $gradient-9) !default;
 $px: #00a6df !default;
 $adobe: #e61f26 !default;
 $android: #97c03d !default;
@@ -349,8 +272,7 @@ $brand-colors: (
   'vk': $vk,
   'skype': $skype,
   'skype-alt': $skype,
-  'telegram-alt': $telegram
-) !default;
+  'telegram-alt': $telegram) !default;
 //----------------------------------------------------------//
 //	BODY
 //----------------------------------------------------------//
@@ -388,9 +310,13 @@ $box-shadow-sm: 0rem 0.25rem 0.75rem rgba($gray-900, 0.02) !default;
 $box-shadow-sm-hover: 0rem 0.25rem 0.75rem rgba($gray-900, 0.05) !default;
 $box-shadow-md: 0rem 0rem 1.25rem rgba($gray-900, 0.06) !default;
 $box-shadow-lg: 0rem 0.25rem 1.75rem rgba($gray-900, 0.07) !default;
-$box-shadow-xl: rgb(30 34 40 / 2%) 0px 2px 1px, rgb(30 34 40 / 2%) 0px 4px 2px, rgb(30 34 40 / 2%) 0px 8px 4px,
-  rgb(30 34 40 / 2%) 0px 16px 8px, rgb(30 34 40 / 3%) 0px 32px 16px !default;
-$box-shadow-with-border: 0 0 0 0.05rem rgba($shadow-border, 0.06), $box-shadow !default;
+$box-shadow-xl: rgb(30 34 40 / 2%) 0px 2px 1px,
+  rgb(30 34 40 / 2%) 0px 4px 2px,
+  rgb(30 34 40 / 2%) 0px 8px 4px,
+  rgb(30 34 40 / 2%) 0px 16px 8px,
+  rgb(30 34 40 / 3%) 0px 32px 16px !default;
+$box-shadow-with-border: 0 0 0 0.05rem rgba($shadow-border, 0.06),
+  $box-shadow !default;
 $btn-shadow: 0rem 0.25rem 0.75rem rgba($gray-900, 0.15) !default;
 $btn-shadow-sm: 0rem 0.25rem 0.75rem rgba($gray-900, 0.05) !default;
 $caret-width: 0.25rem !default;
@@ -405,8 +331,15 @@ $mark-padding: 0.05rem 0.4rem 0.2rem !default;
 //	TYPOGRAPHY
 //----------------------------------------------------------//
 $path-to-fonts: 'https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700' !default;
-$font-family-sans-serif: 'Manrope', sans-serif !default;
-$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !default;
+$font-family-sans-serif: 'Manrope',
+  sans-serif !default;
+$font-family-monospace: SFMono-Regular,
+  Menlo,
+  Monaco,
+  Consolas,
+  'Liberation Mono',
+  'Courier New',
+  monospace !default;
 $font-family-custom-icons: 'Custom' !default;
 $font-family-unicons: 'Unicons' !default;
 $font-size-root: 20px !default;
@@ -450,8 +383,7 @@ $display-font-sizes: (
   3: 2rem,
   4: 1.8rem,
   5: 1.6rem,
-  6: 1.4rem
-) !default;
+  6: 1.4rem) !default;
 $display-font-weight: 700 !default;
 $lead-font-size: $font-size-base * 1.25 * 0.9 !default;
 $lead-font-weight: 500 !default;
@@ -898,3 +830,100 @@ $icon-file: '\eaed' !default;
 $icon-code: '\e952' !default;
 $icon-terminal: '\e905' !default;
 $icon-kbd: '\eba9' !default;
+
+//----------------------------------------------------------//
+//	Custom color modes
+//----------------------------------------------------------//
+[data-bs-theme="dark"] {
+  /* Kolory tła */
+  --bs-body-bg: #121212 !important;
+  --bs-bg: #212529 !important;
+  --bs-bg-subtle: #343a40 !important;
+
+  --bs-light: #121212 !important;
+
+
+  /*Kolor linkow w menu*/
+  --bs-nav-link-hover-color: #e9ecef !important;
+  --bs-navbar-color: #e9ecef !important;
+  --bs-nav-link-color: #e9ecef !important;
+  --bs-nav-link-hover-color: #e9ecef !important;
+
+  /* Kolory tekstu */
+  --bs-body-color: #e9ecef !important;
+  --bs-link-color: #0d6efd !important;
+  --bs-link-hover-color: #0a58ca !important;
+
+  /* Kolory obramowania */
+  --bs-border-color: #495057 !important;
+
+  /* Kolory komponentów */
+  --bs-btn-bg: #0d6efd !important;
+  --bs-btn-border-color: #0d6efd !important;
+  --bs-btn-hover-bg: #0b5ed7 !important;
+  --bs-btn-hover-border-color: #0a58ca !important;
+
+  /* Kolory formularzy */
+  --bs-form-control-bg: #343a40 !important;
+  --bs-form-control-border-color: #495057 !important;
+  --bs-form-control-focus-bg: #495057 !important;
+  --bs-form-control-focus-border-color: #0d6efd !important;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    // color: white !important;
+  }
+
+  .bg-light {
+    background-color: #121212 !important;
+  }
+
+  .navbar-nav .nav-link {
+    color: #e9ecef !important;
+  }
+
+  .shape {
+    display: none !important;
+  }
+
+  .bg-soft-primary {
+    background-color: #121212 !important;
+  }
+
+  .fixed .navbar-nav .nav-link {
+    color: black !important;
+  }
+
+  .fixed .navbar-nav .btn {
+    background-color: #121212 !important;
+    border: #000;
+    color: white !important;
+  }
+
+  .navbar-nav .btn {
+    background-color: white !important;
+    border: white;
+    color: #000 !important;
+  }
+
+  .btn {
+    background-color: white !important;
+    border: white;
+    color: #000 !important;
+  }
+
+  .card {
+    background-color: #121212 !important;
+  }
+
+}

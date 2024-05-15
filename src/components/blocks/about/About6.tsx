@@ -5,7 +5,7 @@
 
 export default function About6() {
   return (
-    <div className="container pt-15 pt-md-17 pb-13 pb-md-15 mb-n14 mb-md-n17" style={{ maxWidth: "56rem" }} data-bs-theme='dark'>
+    <div className="container pt-15 pt-md-5 pb-13 pb-md-15 mb-n14 mb-md-n17" style={{ maxWidth: "56rem" }} data-bs-theme='dark'>
 
       <div className="row gx-lg-8 gx-xl-12 gy-10 mb-5  align-items-center ">
         <div className="col-lg-6 position-relative order-lg-2">
@@ -14,7 +14,7 @@ export default function About6() {
 
         <div className="col-lg-12">
 
-          <h2 className="display-4 mb-3 text-center mb-10">Rusza I tura naboru do projektu „Kobieta * Aktywność * Sukces”</h2>
+          <h2 className="display-4 mb-3 text-center mb-10">Rusza I tura naboru do projektu<br></br> „Kobieta * Aktywność * Sukces”</h2>
 
           <p className="lead fs-lg">
             Zapraszamy niepracujące kobiety w wieku 18-59 lat, zamieszkujące miasto Radom lub gminę

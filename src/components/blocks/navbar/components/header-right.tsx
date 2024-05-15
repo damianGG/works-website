@@ -12,6 +12,7 @@ interface HeaderRightProps {
   button?: ReactNode;
   language?: boolean;
   navOtherClass?: string;
+  colorModeSwitcher?: ReactNode;
 }
 // ===================================================================
 
@@ -22,7 +23,8 @@ export default function HeaderRight({
   social,
   search,
   language,
-  navOtherClass
+  navOtherClass,
+  colorModeSwitcher,
 }: HeaderRightProps) {
   return (
     <div className={navOtherClass}>
