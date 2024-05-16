@@ -12,9 +12,9 @@ export default function Toplogo() {
         alt="logo"
         sizes="90vw"
         style={{
-          width: '90%',
+          width: '100%',
           height: 'auto',
-          maxWidth: '1400px',
+          maxWidth: '1000px',
         }} />
 
     </div>

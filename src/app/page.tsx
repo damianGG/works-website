@@ -10,7 +10,7 @@ import Hero2 from "@/components/blocks/hero/Hero2";
 export default function Home() {
   return (
     <main >
-      <div className="mt-10">
+      <div className="">
         <Hero4 />
         <About6 />
       </div>

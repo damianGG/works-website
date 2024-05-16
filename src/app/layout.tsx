@@ -22,7 +22,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+
+
     <html lang="pl" data-bs-theme="light">
+      <head>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
+
+      </head>
       <body className={manrope.className}>
 
         <NavbarOne button={<Link title="Contact" href="/rekrutacja" className="btn btn-sm btn-primary rounded-pill">Zapisz się</Link>} />
@@ -30,5 +36,6 @@ export default function RootLayout({
         <Footer2 />
       </body>
     </html>
+
   );
 }

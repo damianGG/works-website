@@ -43,7 +43,7 @@ export default function NavbarOne({
   language = false,
   stickyBox = true,
   navOtherClass = "navbar-other w-100 d-flex ms-auto",
-  navClassName = "navbar navbar-expand-lg center-nav transparent navbar-light mt-5"
+  navClassName = "navbar navbar-expand-lg center-nav transparent navbar-light mt-5 mb-5"
 }: NavbarProps) {
   useNestedDropdown();
   const sticky = useSticky(350);
@@ -112,8 +112,8 @@ export default function NavbarOne({
         social={social}
         language={language}
         navOtherClass={navOtherClass}
+        colorModeSwitcher={true}
       />
-      <ColorModeSwitcher />
     </Fragment>
   );
 

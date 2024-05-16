@@ -4,7 +4,7 @@ export default function Kontakt() {
     return (
         <>
             <section className="wrapper bg-soft-primary">
-                <div className="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">
+                <div className="container pt-5 pb-5 pt-md-10 pb-md-10 text-center">
                     <div className="row"><div className="col-md-9 col-lg-7 col-xl-5 mx-auto">
                         <h1 className="display-1 mb-3">Kontakt</h1>
                         <p className="lead px-xxl-10"></p>
@@ -22,7 +22,7 @@ export default function Kontakt() {
                         <p><strong>Adres:</strong> ul. Grzecznarowskiego 2, pok. 204 (II piętro), 26-600 Radom</p>
                         <p>Biuro projektu czynne jest od poniedziałku do piątku w godzinach 8:00 - 16:00 (istnieje możliwość umówienia się na inne godziny spotkania)</p>
                         <p><strong>Tel:</strong> +48 881 500 075</p>
-                        <p><strong>E-mail:</strong> aktywnekobiety@jpmcg.pl</p>
+                        <p><strong>E-mail:</strong> <a href="mailto:aktywnekobiety@jpmcg.pl" className="link-primary" target="_blank">aktywnekobiety@jpmcg.pl</a> </p>
                     </div>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.7890548955743!2d21.147012361731125!3d51.38988090482032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47185eb9f9d02fad%3A0xf0f1488f81b1133d!2sAleja%20J%C3%B3zefa%20Grzecznarowskiego%202%2C%2026-606%20Radom!5e0!3m2!1spl!2spl!4v1715142817877!5m2!1spl!2spl"
@@ -39,13 +39,19 @@ export default function Kontakt() {
                         <p><strong>Adres:</strong> ul. Plac Solny 14 lok. 3, 50-062 Wrocław</p>
                         <p><strong>Strona:</strong><Link href="http://jpmcg.pl" className="link-primary" target="_blank">www.jpmcg.pl</Link></p>
                         <p><strong>Tel:</strong> +48 531 954 000</p>
-                        <p><strong>E-mail:</strong> biuro@jpmcg.pl</p>
+                        <p><strong>E-mail:</strong> <a href="mailto:biuro@jpmcg.pl" className="link-primary" target="_blank">biuro@jpmcg.pl</a> </p>
                     </div>
 
                 </div>
                 <div className="row">
-                    <div className="col text-center">
-                        <p>#FunduszeUE #FunduszeEuropejskie</p>
+                    <div className="col text-center mb-15">
+                        <Link
+                            href="https://www.facebook.com/search/top/?q=%23funduszeue%20%23FunduszeEuropejskie"
+                            className="link-primary" target="_blank"
+                        >
+                            #FunduszeUE #FunduszeEuropejskie
+                        </Link>
+
                     </div>
                 </div>
             </div>

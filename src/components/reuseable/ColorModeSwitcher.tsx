@@ -17,8 +17,15 @@ export default function ColorModeSwitcher() {
     };
 
     const increaseFontSize = () => {
-        setFontSize((prevFontSize) => prevFontSize + 2);
-        document.documentElement.style.fontSize = `${fontSize + 2}px`;
+        setFontSize((prevFontSize) => {
+            const newFontSize = prevFontSize + 2;
+            if (newFontSize <= 24) {
+                document.documentElement.style.fontSize = `${newFontSize}px`;
+                return newFontSize;
+            } else {
+                return prevFontSize;
+            }
+        });
     };
 
     const decreaseFontSize = () => {

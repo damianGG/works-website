@@ -5,7 +5,7 @@
 
 export default function About6() {
   return (
-    <div className="container pt-15 pt-md-5 pb-13 pb-md-15 mb-n14 mb-md-n17" style={{ maxWidth: "56rem" }} data-bs-theme='dark'>
+    <div className="container pt-5 pt-md-5 pb-13 pb-md-15 mb-n14 mb-md-n17" style={{ maxWidth: "56rem" }} data-bs-theme='dark'>
 
       <div className="row gx-lg-8 gx-xl-12 gy-10 mb-5  align-items-center ">
         <div className="col-lg-6 position-relative order-lg-2">

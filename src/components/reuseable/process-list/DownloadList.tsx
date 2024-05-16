@@ -20,18 +20,18 @@ export default function ProcessList1({ no, title, subtitle, className, shadow }:
           "shadow-lg": shadow,
           [className]: Boolean(className)
         })}>
-        <div className="card-body p-6">
+        <div className="card-body p-3 p-md-6">
           <div className="d-flex flex-row justify-content-between align-items-center">
             <div className="grow-1 w-75 pe-3">
               <h4 className="mb-1">{title}</h4>
               <p className="mb-0">{subtitle}</p>
             </div>
 
-            <div >
-              <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4">
+            <div className="d-flex">
+              <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-2 me-md-4">
                 <span className="number"><i className="uil uil-file-download fs-40"></i></span>
               </span>
-              <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4" style={{ backgroundColor: "white" }}>
+              <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-0 me-md-4" style={{ backgroundColor: "white" }}>
                 <span className="number" style={{ color: "black" }}><i className="uil uil-file-download fs-40"></i></span>
               </span>
             </div>

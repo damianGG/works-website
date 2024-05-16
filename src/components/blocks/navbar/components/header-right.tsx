@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 // -------- PARTIAL LOCAL COMPONENTS -------- //
 import Social from "./social";
 import Language from "./language";
+import ColorModeSwitcher from "@/components/reuseable/ColorModeSwitcher";
 
 // ===================================================================
 interface HeaderRightProps {
@@ -12,7 +13,7 @@ interface HeaderRightProps {
   button?: ReactNode;
   language?: boolean;
   navOtherClass?: string;
-  colorModeSwitcher?: ReactNode;
+  colorModeSwitcher?: boolean;
 }
 // ===================================================================
 
@@ -79,6 +80,14 @@ export default function HeaderRight({
             <span />
           </button>
         </li>
+
+        {/* ============= color mode switcher ============= */}
+        {colorModeSwitcher ? (
+          <li className="nav-item  d-none d-lg-block">
+            <ColorModeSwitcher />
+          </li>
+        )
+          : null}
       </ul>
     </div>
   );
