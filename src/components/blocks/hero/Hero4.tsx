@@ -2,6 +2,7 @@ import Link from "next/link";
 // CUSTOM UTILS
 import { slideInDownAnimate, zoomInAnimate } from "@/utils/animation";
 import Image from "next/image";
+import DietetykPhoto from "../../../../public/img/photos/dietetyk.webp";
 
 export default function Hero4() {
   return (
@@ -18,9 +19,9 @@ export default function Hero4() {
             />
             <figure className="rounded">
               <Image
-                src="/img/photos/dietetyk.webp"
-                width={1000}
-                height={666}
+                src={DietetykPhoto}
+                priority={true}
+                placeholder='blur' // "empty" | "blur"
                 alt="hero"
               />
 

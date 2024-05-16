@@ -3,6 +3,7 @@
 // CUSTOM DATA
 import { aboutList2 } from "@/data/about";
 import Image from "next/image";
+import dietetykPhoto from "/public/img/photos/dietetyk.webp";
 
 export default function About6v2() {
   return (
@@ -14,8 +15,8 @@ export default function About6v2() {
           <div>
             <figure className="rounded shadow">
               <Image
-                src="/img/photos/dietetyk.webp"
-                width={600}
+                src={dietetykPhoto}
+                width={8}
                 height={1000}
                 alt="hero"
               />
