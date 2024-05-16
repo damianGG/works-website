@@ -20,8 +20,8 @@ export default function Hero4() {
             <figure className="rounded">
               <Image
                 src={DietetykPhoto}
-                priority={true}
-                placeholder='blur' // "empty" | "blur"
+                // priority={true}
+                // placeholder='blur' // "empty" | "blur"
                 alt="hero"
               />
 
