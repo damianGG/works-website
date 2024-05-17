@@ -11,10 +11,8 @@ import Link from "next/link";
 // LOCAL CUSTOM COMPONENTS
 import HeaderRight from "../components/header-right";
 import FancyHeader from "../components/fancy-header";
-import JPLogo from "../../../../../public/img/logos/Jp_logo_witout_background.png";
+import JPLogo from "../../../../../public/img/logos/Jp_logo_witout_background_small_size.png";
 import Toplogo from "../top-logo/Toplogo";
-import ColorModeSwitcher from "@/components/reuseable/ColorModeSwitcher";
-import Switch from "@/components/reuseable/Switch";
 
 // ===================================================================
 interface NavbarProps {
