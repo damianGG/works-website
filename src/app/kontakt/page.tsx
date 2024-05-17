@@ -1,5 +1,9 @@
 import Link from "next/link";
-
+import type { Metadata } from 'next'
+export const metadata: Metadata = {
+    title: 'Kontakt do projektu „Kobieta * Aktywność * Sukces',
+    description: 'Kontakt do projektu „Kobieta * Aktywność * Sukces” w Radomiu i gminie Wieniawa oraz do biura projektu J&P Moritz Consulting Group Jacek Poproch w Wrocławiu',
+}
 export default function Kontakt() {
     return (
         <>

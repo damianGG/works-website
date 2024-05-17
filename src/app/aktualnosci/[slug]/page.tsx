@@ -8,9 +8,14 @@ import FigureImage from "@/components/reuseable/FigureImage";
 
 
 
+import type { Metadata } from 'next'
 
+export const metadata: Metadata = {
+    title: 'Rusza I tura naboru do projektu „Kobieta * Aktywność * Sukces”',
+    description: 'Rusza I tura naboru do projektu „Kobieta * Aktywność * Sukces” w Radomiu i gminie Wieniawa',
+}
 export default function BlogDetailsTemplate() {
-    // used for image lightbox
+
     return (
         <>
             <section className="wrapper bg-soft-primary">

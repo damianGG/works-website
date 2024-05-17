@@ -1,4 +1,10 @@
 import Link from "next/link"
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Aktualności o projekcie Kobieta-Aktywność-Sukces',
+    description: 'Aktualności o projekcie Kobieta-Aktywność-Sukces w Radomiu i gminie Wieniawa',
+}
 
 export default function News() {
     return (
