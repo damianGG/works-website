@@ -27,8 +27,6 @@ export default function RootLayout({
     <html lang="pl" data-bs-theme="light">
       <head>
         <link rel="icon" type="image/x-icon" sizes="16x16" href="/img/favicon.ico" />
-
-
       </head>
       <body className={manrope.className}>
 
