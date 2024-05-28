@@ -1,20 +1,34 @@
-// GLOBAL CUSTOM HOOKS
-// GLOBAL CUSTOM COMPONENTS
-import FigureImage from "@/components/reuseable/FigureImage";
-
-// CUSTOM DATA
-
+import BlockContent from './BlockContent';
+import { format } from 'date-fns';
+import { pl } from 'date-fns/locale';
+const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 
 
+async function getStrapiData(id: string) {
+    // const id= params.slug.split('-')[0]
+    const data = await fetch(`${backendLink}/api/aktualnoscis/${id}`, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${process.env.BEARER_TOKEN}`
+        },
+    }
+    );
 
-import type { Metadata } from 'next'
-
-export const metadata: Metadata = {
-    title: 'Rusza I tura naboru do projektu „Kobieta * Aktywność * Sukces”',
-    description: 'Rusza I tura naboru do projektu „Kobieta * Aktywność * Sukces” w Radomiu i gminie Wieniawa',
+    return data.json();
 }
-export default function BlogDetailsTemplate() {
+
+
+export default async function BlogDetailsTemplate({ params }: { params: { slug: string } }) {
+
+    const id = params.slug.split('-')[0]
+    const { data } = await getStrapiData(id);
+    const title = data.attributes.tytul;
+    const date = data.attributes.data;
+    const formattedDate = format(new Date(date), 'dd MMMM yyyy', { locale: pl });
+    const content = data.attributes.opis;
+
 
     return (
         <>
@@ -26,12 +40,12 @@ export default function BlogDetailsTemplate() {
                                 <div className="post-category text-line">
                                 </div>
                                 <h1 className="display-1 mb-4">
-                                    Rusza I tura naboru do projektu „Kobieta * Aktywność * Sukces”
+                                    {title}
                                 </h1>
                                 <ul className="post-meta mb-5">
                                     <li className="post-date">
                                         <i className="uil uil-calendar-alt" />
-                                        <span>01 kwiecień 2024</span>
+                                        <span>{formattedDate}</span>
                                     </li>
 
                                 </ul>
@@ -50,61 +64,9 @@ export default function BlogDetailsTemplate() {
                                         <div className="classic-view">
                                             <article className="post">
                                                 <div className="post-content mb-5">
-                                                    <h2 className="h1 mb-4">Zapraszamy niepracujące kobiety w wieku 18-59 lat, zamieszkujące miasto Radom lub gminę Wieniawa do udziału w projekcie „Kobieta * Aktywność * Sukces”.</h2>
-                                                    <div className="col-lg-12">
-                                                        <p className="lead fs-lg">
-                                                            W ramach projektu oferujemy:
-                                                        </p>
-                                                        <div className="row gy-3 ">
-                                                            <div className="col-xl-6">
-                                                                <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                                                                    <li><i className="uil uil-check"></i> spotkania z doradcą zawodowym</li>
-                                                                    <li className="mt-3"><i className="uil uil-check"></i>szkolenia aktywizujące</li>
-                                                                    <li className="mt-3"><i className="uil uil-check"></i>szkolenia zawodowe niezbędne w zawodach związanych z usługami zdrowotnymi i
-                                                                        opiekuńczymi</li>
-
-                                                                </ul>
-                                                            </div>
-                                                            <div className="col-xl-6">
-                                                                <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                                                                    <li className="mt-3"><i className="uil uil-check"></i>stypendium szkoleniowe za udział w każdym kursie</li>
-                                                                    <li className="mt-3"><i className="uil uil-check"></i>wyżywienie w trakcie szkoleń</li>
-                                                                    <li className="mt-3"><i className="uil uil-check"></i>możliwość zwrotu kosztów dojazdu</li>
-                                                                    <li className="mt-3"><i className="uil uil-check"></i>możliwość zwrotu kosztów opieki nad osobą wymagającą wsparcia w codziennym
-                                                                        funkcjonowaniu.</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p className="text-center fs-20 mt-15">Udział w projekcie jest bezpłatny.</p>
-                                                        </div>
-
-                                                    </div>
-
-                                                    <div className="">
-                                                        <p className="lead fs-lg">
-                                                            W Projekcie mogą uczestniczyć kobiety spełniające następujące warunki:
-                                                        </p>
-                                                        <div className="row gy-3 ">
-                                                            <div className="col-xl-12">
-                                                                <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                                                                    <li><i className="uil uil-check"></i> wiek 18-59 lat</li>
-                                                                    <li className="mt-3"><i className="uil uil-check"></i>zamieszkiwanie: miasto Radom lub gmina Wieniawa</li>
-                                                                    <li className="mt-3"><i className="uil uil-check"></i>szkolenia aktywizujące</li>
-                                                                    <li className="mt-3"><i className="uil uil-check"></i>osoba bierna zawodowa – osoba, która w danej chwili nie tworzy zasobów siły
-                                                                        roboczej (tzn. nie jest osobą pracującą ani bezrobotną); w tym m.in.: studenci studiów
-                                                                        stacjonarnych</li>
-                                                                </ul>
-                                                            </div>
-
-                                                            <p className="">Do wzięcia udziału w projekcie zapraszamy wszystkich chętnych spełniających wyżej
-                                                                wymienione kryteria, a w szczególności bierne zawodowo kobiety w wieku 18-29 lat, które
-                                                                posiadają wykształcenie ponadgimnazjalne lub niższe.</p>
-                                                            <p className="">Komplet dokumentów rekrutacyjnych (patrz zakładka „Rekrutacja”) można składać osobiście
-                                                                w Biurze Projektu bądź przesyłać je drogą pocztową, kurierem lub e-mailem.</p>
-                                                            <p>I tura rekrutacji trwa od 02.04.2024 r. – 31.05.2024 r.</p>
-
-                                                        </div>
-
-                                                    </div>
+                                                    <BlockContent
+                                                        content={content}
+                                                    />
                                                 </div>
                                             </article>
                                         </div>
@@ -115,7 +77,6 @@ export default function BlogDetailsTemplate() {
                     </div>
                 </div>
             </section>
-
         </>
 
     );

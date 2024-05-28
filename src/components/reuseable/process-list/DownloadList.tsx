@@ -1,19 +1,21 @@
 import clsx from "clsx";
 import Link from "next/link";
 
+const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
+
 // ==============================================================
 interface DownloadListProps {
-  no: string;
   title: string;
-  subtitle: string;
+  link1: string;
+  link2: string;
   shadow?: boolean;
-  className: string;
+  className?: string;
 }
 // ==============================================================
 
-export default function ProcessList1({ no, title, subtitle, className, shadow }: DownloadListProps) {
+export default function DownloadList({ title, className = '', shadow, link1, link2 }: DownloadListProps) {
   return (
-    <Link href="/rekrutacja">
+    <>
       <div
         className={clsx({
           card: true,
@@ -23,23 +25,23 @@ export default function ProcessList1({ no, title, subtitle, className, shadow }:
         <div className="card-body p-3 p-md-6">
           <div className="d-flex flex-row justify-content-between align-items-center">
             <div className="grow-1 w-75 pe-3">
-              <h4 className="mb-1">{title}</h4>
-              <p className="mb-0">{subtitle}</p>
+              <h4 className="mb-1 text-start">{title}</h4>
             </div>
-
             <div className="d-flex">
-              <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-2 me-md-4">
-                <span className="number"><i className="uil uil-file-download fs-40"></i></span>
-              </span>
-              <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-0 me-md-4" style={{ backgroundColor: "white" }}>
-                <span className="number" style={{ color: "black" }}><i className="uil uil-file-download fs-40"></i></span>
-              </span>
+              <Link href={`${backendLink}${link1}`} >
+                <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-2 me-md-4">
+                  <span className="number"><i className="uil uil-file-download fs-40"></i></span>
+                </span>
+              </Link>
+              <Link href={`${backendLink}${link2}`} >
+                <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-0 me-md-4" style={{ backgroundColor: "white" }}>
+                  <span className="number" style={{ color: "black" }}><i className="uil uil-file-download fs-40"></i></span>
+                </span>
+              </Link>
             </div>
-
-
           </div>
         </div>
       </div>
-    </Link>
+    </>
   );
 }

@@ -3,9 +3,30 @@ import DownloadList from "@/components/reuseable/process-list/DownloadList";
 import { doPobrania2, processList1 } from "@/data/process";
 import { doPobrania } from "@/data/process";
 import Link from "next/link";
+const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
+export async function getStrapiData() {
+  const response = await fetch(`${backendLink}/api/dokumenties?populate=*`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${process.env.BEARER_TOKEN}`
+    },
+  });
 
-export default function Process7() {
+  if (!response.ok) {
+    throw new Error('Failed to fetch data');
+  }
+
+  const data = await response.json();
+  return data;
+}
+
+export default async function Process7() {
+
+  const dataFromStrapi = await getStrapiData();
+  const data = dataFromStrapi.data;
+
   return (
     <>
       <div className="container pt-15 pt-md-17 pb-13 pb-md-15">
@@ -95,8 +116,14 @@ export default function Process7() {
             </div>
             <p>Prosimy o drukowanie dokumentów rekrutacyjnych w kolorze. Wersja czarno-biała dotyczy sytuacji braku możliwości wydruku w kolorze.</p>
             <div className="col-lg-12 order-lg-2">
-              {doPobrania2.map((item) => (
-                <DownloadList {...item} key={item.no} />
+              {data.map((item: any) => (
+                <DownloadList
+                  title={item.attributes.tytul}
+                  link1={item.attributes.kolorowy.data[0]?.attributes.url}
+                  link2={item.attributes.czarnobialy.data?.attributes.url}
+                  key={item.id}
+                  className="mb-5"
+                />
               ))}
             </div>
 
