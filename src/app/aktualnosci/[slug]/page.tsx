@@ -8,6 +8,7 @@ const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 async function getStrapiData(id: string) {
     // const id= params.slug.split('-')[0]
     const data = await fetch(`${backendLink}/api/aktualnoscis/${id}`, {
+        cache: 'no-store',
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',

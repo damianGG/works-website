@@ -7,13 +7,16 @@ const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 
 async function getStrapiData() {
-    const data = await fetch(`${backendLink}/api/aktualnoscis?sort=id:desc`, {
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${process.env.BEARER_TOKEN}`
-        },
-    }
+    const data = await fetch(`${backendLink}/api/aktualnoscis?sort=id:desc`,
+
+        {
+            cache: 'no-store',
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${process.env.BEARER_TOKEN}`
+            },
+        }
     );
     console.log(data);
     return data.json();
