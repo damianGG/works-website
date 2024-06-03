@@ -7,6 +7,12 @@
     border: 1px solid black;
     font-weight: 500;
     background-color: white;
+    border-radius: 3px;
+}
+
+.contrast-buttonCart {
+    color: white;
+    background-color: black;
 }
 
 .resetZoomButton {
@@ -14,10 +20,7 @@
     margin-right: 1px;
 }
 
-.zoomInButton {
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px;
-}
+
 
 .zoomOutButton {
     border-bottom-right-radius: 3px;
@@ -28,7 +31,7 @@
 .resetZoomButton:hover,
 .zoomOutButton:hover {
     color: white;
-    background-color: var(--bs-navbar-hover-color);
+    background-color: var(--bs-primary);
 }
 
 #blackWhiteContrast {
@@ -55,4 +58,38 @@
 
 #blackWhiteImage {
     height: 26px;
+}
+
+
+
+.zoomInButtonCart,
+.resetZoomButtonCart,
+.zoomOutButtonCart {
+    width: 26px;
+    height: 26px;
+    border: 1px solid black;
+    font-weight: 500;
+    background-color: white;
+}
+
+.resetZoomButtonCart {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.zoomInButtonCart {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.zoomOutButtonCart {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.zoomInButtonCart:hover,
+.resetZoomButtonCart:hover,
+.zoomOutButtonCart:hover {
+    color: white;
+    background-color: var(--bs-primary);
 }

@@ -14,7 +14,7 @@ export default function About6() {
 
         <div className="col-lg-12">
 
-          <h2 className="display-4 mb-3 text-center mb-10">Rusza I tura naboru do projektu<br></br> „Kobieta * Aktywność * Sukces”</h2>
+          <h2 className="display-4 mb-3 text-center mb-10">Zapraszamy do projektu <br></br> „Kobieta * Aktywność * Sukces”</h2>
 
           <p className="lead fs-lg">
             Zapraszamy niepracujące kobiety w wieku 18-59 lat, zamieszkujące miasto Radom lub gminę

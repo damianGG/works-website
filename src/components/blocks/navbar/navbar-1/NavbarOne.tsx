@@ -111,7 +111,7 @@ export default function NavbarOne({
         social={social}
         language={language}
         navOtherClass={navOtherClass}
-        colorModeSwitcher={true}
+        colorModeSwitcher={false}
       />
     </Fragment>
   );

@@ -35,9 +35,7 @@ export default function Hero4() {
               Kobieta*Aktywność*Sukces
             </h1>
 
-            <p className="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0" style={slideInDownAnimate("900ms")}>
-              Okres realizacji: 01.04.2024-31.03.2025
-            </p>
+
 
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate("1200ms")}>

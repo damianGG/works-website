@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import Social from "./social";
 import Language from "./language";
 import ColorModeSwitcher from "@/components/reuseable/ColorModeSwitcher";
+import AccessibilityButton from "@/components/reuseable/AccessibilityButton";
 
 // ===================================================================
 interface HeaderRightProps {
@@ -84,7 +85,7 @@ export default function HeaderRight({
         {/* ============= color mode switcher ============= */}
         {colorModeSwitcher ? (
           <li className="nav-item  d-none d-lg-block">
-            <ColorModeSwitcher />
+            <AccessibilityButton />
           </li>
         )
           : null}
