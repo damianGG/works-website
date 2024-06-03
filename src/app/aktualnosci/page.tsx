@@ -57,7 +57,7 @@ export default async function News() {
                 style={{
                     position: 'relative',
                     backgroundPosition: 'right',
-                    backgroundImage: 'url(/_next/static/media/flaga-ue-tlo.a9057970.png)',
+                    backgroundImage: `url(${flagaUe.src})`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat'
                 }}

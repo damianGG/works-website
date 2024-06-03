@@ -59,7 +59,7 @@ export default function AccessibilityButton() {
     };
 
     return (
-        <div className="ms-5" style={{ display: "flex", justifyContent: "flex-end", position: "fixed", top: "13rem", right: "0" }}>
+        <div className="ms-5 " style={{ display: "flex", justifyContent: "flex-end", position: "fixed", top: "13rem", right: "0", zIndex: "100" }}>
             <button
                 id="blackWhiteContrast"
                 className="contrast-button"
