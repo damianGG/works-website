@@ -6,7 +6,7 @@ import Link from "next/link";
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 export async function getStrapiData() {
-  const response = await fetch(`${backendLink}/api/dokumenties?populate=*`, {
+  const response = await fetch(`${backendLink}/api/dokumenties?sort=rank:asc&populate=*`, {
     cache: 'no-store',
     method: 'GET',
     headers: {
