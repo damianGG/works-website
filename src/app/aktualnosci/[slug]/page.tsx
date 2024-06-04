@@ -1,13 +1,15 @@
+import FigureImage from '@/components/reuseable/FigureImage';
 import BlockContent from './BlockContent';
 import { format } from 'date-fns';
 import { pl } from 'date-fns/locale';
+import DownloadElement from '@/components/reuseable/process-list/DownloadElement';
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 
 
 async function getStrapiData(id: string) {
     // const id= params.slug.split('-')[0]
-    const data = await fetch(`${backendLink}/api/aktualnoscis/${id}`, {
+    const data = await fetch(`${backendLink}/api/aktualnoscis/${id}?populate=*`, {
         cache: 'no-store',
         method: 'GET',
         headers: {
@@ -29,6 +31,11 @@ export default async function BlogDetailsTemplate({ params }: { params: { slug: 
     const date = data.attributes.data;
     const formattedDate = format(new Date(date), 'dd MMMM yyyy', { locale: pl });
     const content = data.attributes.opis;
+
+    const photoURL = data.attributes.zdjecie?.data?.attributes?.url;
+    const tekstPlikDoPobrania = data.attributes.TekstPlikDoPobrania;
+    const downloadURL = data.attributes.PlikDoPobrania?.data?.attributes?.url;
+
 
 
     return (
@@ -61,6 +68,14 @@ export default async function BlogDetailsTemplate({ params }: { params: { slug: 
                         <div className="col-lg-10 mx-auto">
                             <div className="blog single mt-n17">
                                 <div className="card">
+                                    {photoURL && (
+                                        <FigureImage width={960} height={600} src={backendLink + photoURL} className="card-img-top" />
+                                    )}
+                                    {downloadURL && (
+                                        <div className='d-flex align-self-center mt-10'>
+                                            <DownloadElement title={tekstPlikDoPobrania} link1={downloadURL} />
+                                        </div>
+                                    )}
                                     <div className="card-body">
                                         <div className="classic-view">
                                             <article className="post">
