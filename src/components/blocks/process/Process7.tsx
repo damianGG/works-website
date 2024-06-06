@@ -86,7 +86,16 @@ export default async function Process7() {
             <p>Na komplet dokumentów rekrutacyjnych składa się:</p>
             <div className="col-lg-12 order-lg-2">
               {doPobrania.map((item) => (
-                <ProcessList1 {...item} key={item.no} />
+                item ? (
+                  <ProcessList1
+                    key={String(item.no)}
+                    no={String(item.no)}
+                    title={item.title}
+                    subtitle={item.subtitle}
+                    className={item.className}
+                    shadow={item.shadow}
+                  />
+                ) : null
               ))}
             </div>
 

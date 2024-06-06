@@ -5,7 +5,7 @@ interface ProcessList1Props {
   no: string;
   title: string;
   subtitle: string;
-  shadow?: boolean;
+  shadow: boolean;
   className: string;
 }
 // ==============================================================

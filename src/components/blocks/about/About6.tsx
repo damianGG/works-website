@@ -75,7 +75,7 @@ export default function About6() {
               posiadają wykształcenie ponadgimnazjalne lub niższe.</p>
             <p className="">Komplet dokumentów rekrutacyjnych (patrz zakładka „Rekrutacja”) można składać osobiście
               w Biurze Projektu bądź przesyłać je drogą pocztową, kurierem lub e-mailem.</p>
-            <p>I tura rekrutacji trwa od 02.04.2024 r. – 31.05.2024 r.</p>
+
 
           </div>
 

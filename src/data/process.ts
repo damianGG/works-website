@@ -17,20 +17,23 @@ export const processList1 = [
   {
     no: "1",
     className: "me-lg-6",
-    title: "osoby w wieku 18 - 59 lat",
-    subtitle: ""
+    title: "kobiety w wieku 18 - 59 lat",
+    subtitle: "",
+    shadow: true
   },
   {
     no: "2",
     title: "bierne zawodowo",
     className: "me-lg-6 mt-6",
+    shadow: true,
     subtitle: "bierne zawodowo osoba, która w danej chwili nie tworzy zasobów siły roboczej (tzn. nie jest osobą pracującą ani bezrobotną)"
   },
   {
     no: "3",
     title: "osoby mieszkające w Radomiu (68 os.) lub gminie Wieniawa (4 os.)",
     className: "me-lg-6 mt-6",
-    subtitle: ""
+    subtitle: "",
+    shadow: true
   },
 
 ];
@@ -40,43 +43,58 @@ export const doPobrania = [
     no: "1",
     className: "me-lg-6 text-start",
     title: "Formularz rekrutacyjny",
-    subtitle: "załącznik nr 1 do Regulaminu rekrutacji i uczestnictwa w projekcie"
+    subtitle: "załącznik nr 1 do Regulaminu rekrutacji i uczestnictwa w projekcie",
+    shadow: true
   },
   {
     no: "2",
     title: "Zaświadczenie z ZUS poświadczające status osoby jako bezrobotnej/biernej zawodowo lub potwierdzenie wygenerowania z Platformy Usług Elektronicznych ZUS (PUE ZUS) potwierdzające status danej osoby w dniu jego wydania",
     className: "me-lg-6 mt-6 text-start",
-    subtitle: ""
+    subtitle: "",
+    shadow: true
   },
   {
     no: "3",
     title: "Kopia dokumentu potwierdzającego obywatelstwo tj. np. paszport, wiza, karta stałego/czasowego pobytu (w przypadku braku polskiego obywatelstwa);",
     className: "me-lg-6 mt-6 text-start",
-    subtitle: ""
+    subtitle: "",
+    shadow: true
   },
   {
     no: "4",
     title: "Dokument potwierdzający miejsce zamieszkania na terenie miasta Radom lub gminy Wieniawa ",
     className: "me-lg-6 mt-6 text-start",
+    shadow: true,
     subtitle: "(np. zaświadczenie z Urzędu Miasta/Gminy lub deklaracja za śmieci lub akt własności lokalu mieszkalnego lub umowa najmu lokalu mieszkalnego lub PIT lub faktura np. za telefon (gdzie wskazany jest adresem miejsca zamieszkania) lub  w przypadku osób pobierających np. 800 plus lub bon żłobkowy lub świadczenia z rodzinnego kapitału opiekuńczego -  decyzji wydanej w tej sprawie gdzie wskazano adres miejsca zamieszkania wnioskodawcy lub dokument  z ZUS potwierdzający zgłoszenie do ubezpieczeń i miejsce zamieszkania uczestniczki projektu);"
   },
   {
     no: "5",
     title: "Orzeczenie o stopniu niepełnosprawności ",
     className: "me-lg-6 mt-6 text-start",
+    shadow: true,
     subtitle: "w rozumieniu ustawy z dnia 27 sierpnia 1997 r. o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (Dz. U. z 2023 r. poz. 100, z późn. zm.) lub orzeczenia albo innego dokumentu, o którym mowa w ustawie z dnia 19 sierpnia 1994 o ochronie zdrowia psychicznego (Dz. U. z 2022 r. poz. 2123)(jeśli dotyczy);"
   },
   {
     no: "6",
     title: "Oświadczenie o kryzysie bezdomności lub dotknięciu wykluczeniem z dostępu do mieszkań (jeśli dotyczy);",
     className: "me-lg-6 mt-6 text-start",
-    subtitle: ""
+    subtitle: "",
+    shadow: true
   },
   {
     no: "7",
-    title: "Klauzula informacyjna Instytucji Zarządzającej - załącznik nr 2 do Regulaminu rekrutacji i uczestnictwa w projekcie; - obligatoryjnie",
+    title: "Klauzula informacyjna Instytucji Zarządzającej ",
     className: "me-lg-6 mt-6 text-start",
-    subtitle: ""
+    subtitle: "załącznik nr 2 do Regulaminu rekrutacji i uczestnictwa w projekcie - obligatoryjnie",
+    shadow: true,
+  },
+  ,
+  {
+    no: "8",
+    title: "Klauzuli informacyjnej Instytucji Pośredniczącej ",
+    className: "me-lg-6 mt-6 text-start",
+    subtitle: "załącznik nr 3 do Regulaminu rekrutacji i uczestnictwa w projekcie",
+    shadow: true,
   },
   
 
