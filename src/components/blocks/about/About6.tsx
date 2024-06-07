@@ -62,7 +62,6 @@ export default function About6() {
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                 <li><i className="uil uil-check"></i> wiek 18-59 lat</li>
                 <li className="mt-3"><i className="uil uil-check"></i>zamieszkiwanie: miasto Radom lub gmina Wieniawa</li>
-                <li className="mt-3"><i className="uil uil-check"></i>szkolenia aktywizujące</li>
                 <li className="mt-3"><i className="uil uil-check"></i>osoba bierna zawodowa – osoba, która w danej chwili nie tworzy zasobów siły
                   roboczej (tzn. nie jest osobą pracującą ani bezrobotną); w tym m.in.: studenci studiów
                   stacjonarnych</li>
