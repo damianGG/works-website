@@ -85,7 +85,7 @@ export const doPobrania = [
     no: "7",
     title: "Klauzula informacyjna Instytucji Zarządzającej ",
     className: "me-lg-6 mt-6 text-start",
-    subtitle: "załącznik nr 2 do Regulaminu rekrutacji i uczestnictwa w projekcie - obligatoryjnie",
+    subtitle: "załącznik nr 2 do Regulaminu rekrutacji i uczestnictwa w projekcie",
     shadow: true,
   },
   ,

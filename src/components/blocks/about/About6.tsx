@@ -34,7 +34,6 @@ export default function About6() {
             <div className="col-xl-6">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                 <li className="mt-3"><i className="uil uil-check"></i> spotkania z doradcą zawodowym</li>
-                <li className="mt-3"><i className="uil uil-check"></i>szkolenia aktywizujące</li>
                 <li className="mt-3"><i className="uil uil-check"></i>szkolenia zawodowe niezbędne w zawodach związanych z usługami zdrowotnymi i
                   opiekuńczymi</li>
 
