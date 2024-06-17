@@ -6,6 +6,10 @@
   min-height: 385px;
 }
 
+.news-card {
+  min-height: 385px;
+}
+
 .card-body {
   flex-grow: 1;
 }

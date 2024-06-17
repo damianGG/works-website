@@ -97,7 +97,7 @@ export default async function News() {
                         return (
                             <div className="col-md-4" key={article.id}>
                                 <Link href={articleUrl}>
-                                    <div className="card ">
+                                    <div className="card news-card">
                                         <div className="card-body">
                                             <div className="post-header">
                                                 <h2 className="post-title h3 mt-1 mb-3">{article.attributes.tytul}</h2>
