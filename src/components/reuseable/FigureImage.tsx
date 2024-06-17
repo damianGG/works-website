@@ -15,7 +15,7 @@ export default function FigureImage(props: FigureImageProps) {
 
   return (
     <figure className={className} {...others}>
-      <Image src={src} alt="demo" width={width} height={height} className="w-100 h-auto" />
+      <Image src={src} alt="demo" width={width} height={height} className="w-md-100 w-50 h-auto" />
     </figure>
   );
 }

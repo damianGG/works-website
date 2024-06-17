@@ -3,6 +3,7 @@ import BlockContent from './BlockContent';
 import { format } from 'date-fns';
 import { pl } from 'date-fns/locale';
 import DownloadElement from '@/components/reuseable/process-list/DownloadElement';
+import './style.css'
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 
