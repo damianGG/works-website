@@ -3,7 +3,6 @@
   flex-direction: column;
   height: 100%;
   flex-grow: 1;
-  min-height: 385px;
 }
 
 .news-card {
