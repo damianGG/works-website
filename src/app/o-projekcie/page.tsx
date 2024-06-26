@@ -110,7 +110,7 @@ export default function News() {
                                         kompetencji cyfrowych.
                                     </li>
                                     <li className="mt-3">
-                                        <i className="uil uil-check" />Każdy Uczestniczka projektu otrzyma śr. 5 godz. zegarowych wsparcia.
+                                        <i className="uil uil-check" />Każda Uczestniczka projektu otrzyma śr. 5 godz. zegarowych wsparcia.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />Wsparciem zostaną objęte 72 Uczestniczki.
@@ -153,13 +153,11 @@ export default function News() {
                             <div className="col-xl-12">
                                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                                     <li>
-                                        <i className="uil uil-check" /> Celem wsparcia jest uzupełnienie poziomu kompetencji cyfrowych uczestników projektu, których na etapie diagnozy stwierdzono konieczność uzupełnienia, o których wzajemnie zdecydowano.
+                                        <i className="uil uil-check" /> Celem wsparcia jest uzupełnienie poziomu kompetencji cyfrowych Uczestniczek projektu, których na etapie diagnozy stwierdzono konieczność uzupełnienia kompetencji w tym zakresie.
                                     </li>
+
                                     <li className="mt-3">
-                                        <i className="uil uil-check" /> Dzięki opracowaniu IPD każda z Uczestniczek projektu otrzyma ofertę wsparcia, obejmującą takie formy pomocy, które zostaną zidentyfikowane u niej jako niezbędne w celu poprawy sytuacji na rynku pracy lub uzyskania zatrudnienia.
-                                    </li>
-                                    <li className="mt-3">
-                                        <i className="uil uil-check" />Uczestnicy, u których zostanie zdiagnozowana konieczność uzupełnienia kompetencji cyfrowych wezmą udział w 40 godz. szkolenia edukacyjnego się z modułów (5 modułów x 8 godz.):
+                                        <i className="uil uil-check" />Uczestniczki, u których zostanie zdiagnozowana konieczność uzupełnienia kompetencji cyfrowych wezmą udział w 40 godz. szkoleniu składającemu się z 5 modułów (5 modułów x 8 godz.):
                                         <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                                             <li> <i className="uil uil-check" />Informacja i dane,</li>
                                             <li> <i className="uil uil-check" />Komunikacja i współpraca,</li>
@@ -169,13 +167,16 @@ export default function News() {
                                         </ul>
                                     </li>
                                     <li className="mt-3">
-                                        <i className="uil uil-check" /> Na zakończenie każdego modułu uczestnicy otrzymają zaświadczenie potwierdzające zdobyte kompetencje cyfrowe.
+                                        <i className="uil uil-check" /> Na zakończenie każdego modułu odbędzie się egzamin zewnętrzny potwierdzający zdobyte kompetencje cyfrowe.
                                     </li>
                                     <li className="mt-3">
-                                        <i className="uil uil-check" />Wsparcie odbędzie się w ramach projektu, którego ukończenie zaplanowane jest na 47 i 48 tydzień roku bieżącego.
+                                        <i className="uil uil-check" />Wsparciem zostaną objęte 44 Uczestniczki projektu.
                                     </li>
                                     <li className="mt-3">
-                                        <i className="uil uil-check" />W ramach wsparcia uczestnicy mogą ubiegać się o zwrot kosztów dojazdu, jak również o zwrot kosztów opieki nad dziećmi lub osobą wymagającą codziennej funkcjonowania.
+                                        <i className="uil uil-check" />W czasie realizacji szkolenia Uczestniczkom projektu przysługuje stypendium szkoleniowe w maksymalnej wysokości 477,41 zł.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />W ramach wsparcia uczestnicy mogą ubiegać się o zwrot kosztów dojazdu, jak również o zwrot kosztów opieki nad dziećmi lub osobą wymagającą wsparcia w codziennym funkcjonowaniu.
                                     </li>
                                 </ul>
                             </div>
@@ -219,7 +220,7 @@ export default function News() {
                                         Szkolenia aktywizujące obejmą następujące moduły (64 godz.,
                                         4 moduły x16 godz.):
                                         <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                                            <li><i className="uil uil-check" />Moduł dot. nabycia przez uczestniczki projektu umiejętności
+                                            <li><i className="uil uil-check" />Moduł dot. nabycia przez Uczestniczki projektu umiejętności
                                                 poszukiwania atrakcyjnych dla siebie nisz rynkowych pod kątem
                                                 profilowania przyszłych aktywności zawodowych,
                                             </li>

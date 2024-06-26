@@ -30,7 +30,7 @@ export const processList1 = [
   },
   {
     no: "3",
-    title: "osoby mieszkające w Radomiu (68 os.) lub gminie Wieniawa (4 os.)",
+    title: "mieszkające w Radomiu (68 os.) lub gminie Wieniawa (4 os.)",
     className: "me-lg-6 mt-6",
     subtitle: "",
     shadow: true
@@ -65,14 +65,14 @@ export const doPobrania = [
     title: "Dokument potwierdzający miejsce zamieszkania na terenie miasta Radom lub gminy Wieniawa ",
     className: "me-lg-6 mt-6 text-start",
     shadow: true,
-    subtitle: "(np. zaświadczenie z Urzędu Miasta/Gminy lub deklaracja za śmieci lub akt własności lokalu mieszkalnego lub umowa najmu lokalu mieszkalnego lub PIT lub faktura np. za telefon (gdzie wskazany jest adresem miejsca zamieszkania) lub  w przypadku osób pobierających np. 800 plus lub bon żłobkowy lub świadczenia z rodzinnego kapitału opiekuńczego -  decyzji wydanej w tej sprawie gdzie wskazano adres miejsca zamieszkania wnioskodawcy lub dokument  z ZUS potwierdzający zgłoszenie do ubezpieczeń i miejsce zamieszkania uczestniczki projektu);"
+    subtitle: "(np. zaświadczenie z Urzędu Miasta/Gminy lub deklaracja za śmieci lub akt własności lokalu mieszkalnego lub umowa najmu lokalu mieszkalnego lub PIT lub faktura np. za telefon (gdzie wskazany jest adresem miejsca zamieszkania) lub  w przypadku osób pobierających np. 800 plus lub bon żłobkowy lub świadczenia z rodzinnego kapitału opiekuńczego -  decyzji wydanej w tej sprawie gdzie wskazano adres miejsca zamieszkania wnioskodawcy lub dokument  z ZUS potwierdzający zgłoszenie do ubezpieczeń i miejsce zamieszkania Uczestniczki projektu);"
   },
   {
     no: "5",
     title: "Orzeczenie o stopniu niepełnosprawności ",
     className: "me-lg-6 mt-6 text-start",
     shadow: true,
-    subtitle: "w rozumieniu ustawy z dnia 27 sierpnia 1997 r. o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (Dz. U. z 2023 r. poz. 100, z późn. zm.) lub orzeczenia albo innego dokumentu, o którym mowa w ustawie z dnia 19 sierpnia 1994 o ochronie zdrowia psychicznego (Dz. U. z 2022 r. poz. 2123)(jeśli dotyczy);"
+    subtitle: "w rozumieniu ustawy z dnia 27 sierpnia 1997 r. o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (Dz. U. z 2023 r. poz. 100, z późn. zm.) lub orzeczenia albo innego dokumentu, o którym mowa w ustawie z dnia 19 sierpnia 1994 r. o ochronie zdrowia psychicznego (Dz. U. z 2022 r. poz. 2123)(jeśli dotyczy);"
   },
   {
     no: "6",
