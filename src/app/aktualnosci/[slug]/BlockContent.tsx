@@ -10,7 +10,7 @@ export default function BlockContent({ content }: { content: BlocksContent }) {
             // Paragraph with custom class
             paragraph: ({ children }) => <p className="mt-3 mb-3">{children}</p>,
             // Link with custom component (assuming Next.js Link)
-            link: ({ children, url }) => <Link href={url}>{children}</Link>,
+            link: ({ children, url }) => <Link className="link-primary" href={url}>{children}</Link>,
             // Unordered list with custom class
             list: ({ children }) => <ul className="icon-list bullet-bg bullet-soft-primary mb-3 mt-3">{children}</ul>,
             // List item with custom class and icon
