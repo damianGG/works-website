@@ -91,7 +91,7 @@ export const doPobrania = [
   ,
   {
     no: "8",
-    title: "Klauzuli informacyjnej Instytucji Pośredniczącej ",
+    title: "Klauzula informacyjnna Instytucji Pośredniczącej ",
     className: "me-lg-6 mt-6 text-start",
     subtitle: "załącznik nr 3 do Regulaminu rekrutacji i uczestnictwa w projekcie",
     shadow: true,
