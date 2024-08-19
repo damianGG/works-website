@@ -59,19 +59,15 @@ export default async function Process7() {
 
             <p>
               Do wzięcia udziału w projekcie zapraszamy wszystkich chętnych spełniających wyżej
-              wymienione kryteria, a w szczególności bierne zawodowo kobiety w wieku 18 – 29 lat,
-              które posiadają wykształcenie ponadgimnazjalne lub niższe.
+              wymienione kryteria, a w szczególności <strong>osoby, które po agresji Federacji Rosyjskiej na
+                Ukrainę zostały objęte w Polsce ochroną czasową, kobiety, osoby z niepełnosprawnością.</strong>
             </p>
 
             <p>
-              Istnieje możliwość skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy
-              asystenta osoby z niepełnosprawnością.
-            </p>
-            <p className="mb-6">
-              Ponadto dla kobiet, które mają problem z dojazdem do Biura projektu (gdyż posiadają pod
-              opieką dziecko/dzieci/osoby wymagające wsparcia; kobiety z niepełnosprawnościami)
-              możliwy jest dojazd do Kandydatki do domu i pomoc kadry projektu w wypełnieniu
-              dokumentów rekrutacyjnych.
+              <strong>
+                Istnieje możliwość skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy
+                asystenta osoby z niepełnosprawnością.
+              </strong>
             </p>
           </div>
         </div>
@@ -82,7 +78,8 @@ export default async function Process7() {
           <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
 
             <h2 className="display-4 mb-4 px-lg-14">Jak zgłosić się do projektu?</h2>
-            <p>Komplet dokumentów rekrutacyjnych można składać osobiście w Biurze projektu bądź przesyłać je listownie, kurierem lub e-mailem. </p>
+            <p>Komplet dokumentów rekrutacyjnych można składać osobiście w Biurze projektu bądź
+              przesyłać je listownie lub e-mailem. </p>
             <p>Na komplet dokumentów rekrutacyjnych składa się:</p>
             <div className="col-lg-12 order-lg-2">
               {doPobrania.map((item) => (

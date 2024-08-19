@@ -2,7 +2,7 @@ import Link from "next/link";
 // CUSTOM UTILS
 import { slideInDownAnimate, zoomInAnimate } from "@/utils/animation";
 import Image from "next/image";
-import DietetykPhoto from "../../../../public/img/photos/dietetyk.webp";
+import MainPhoto from "../../../../public/img/photos/main_photo.jpg";
 
 export default function Hero4() {
   return (
@@ -19,7 +19,7 @@ export default function Hero4() {
             />
             <figure className="rounded">
               <Image
-                src={DietetykPhoto}
+                src={MainPhoto}
                 // priority={true} 
                 // placeholder='blur' // "empty" | "blur"
                 alt="hero"
@@ -32,11 +32,11 @@ export default function Hero4() {
 
           <div className="col-lg-5 mt-lg-n10 text-center text-lg-start">
             <h1 className="display-1 mb-5 fs-40" style={slideInDownAnimate("600ms")}>
-              Kobieta*Aktywność*Sukces
+              „INTEGRACJA-ADAPTACJA!”
             </h1>
-
-
-
+            <h3 className="mb-10">
+              Okres realizacji: 01.07.2024 r. – 30.06.2025 r.
+            </h3>
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate("1200ms")}>
                 <Link href="/rekrutacja" className="btn btn-lg btn-primary rounded-pill me-2" >Zapisz się</Link>

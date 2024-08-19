@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logoUE from '../../../../../public/img/logos/Poziomy_podstawowy_kolorowy.jpg'
+import logoUE from '../../../../../public/img/logos/ue-warmia-mazury.png'
 // ===================================================================
 
 // ===================================================================

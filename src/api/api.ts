@@ -3,7 +3,7 @@ export async function getStrapiData() {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer d4f94f06063bc35e5ab58004bc76fadb978eecbe35eec5d1299a1b96be5ccf820907eaffd2bd1c5a8292a11877dc53aa15dcac5a5a58a7279f4e42cf9916688d17f80b79f7afebf41b3743199f975d42577a12af8b75c56ddf5630cb77db836fc79ca1c54105718e9ca180c469686b2afe97ce8068735f4f4557809ec143531c`
+            'Authorization': `Bearer a53e3c296f387fcd393e99029b9c6a9231e4367efdee3eeec599fe656143e869c14b2094fd876a0885cd46398f87a35a43c1eca3ad0d04dc12b8f756b6c2f843b560cf204b0277e61d5c95e0abf13c40c80c377ddd8eff4c42b060f0f7c2ade5bede7a99327937f915f5646c36c7eb6fd37d0f6627f1252aba98a20f22817424`
         },
     });
 

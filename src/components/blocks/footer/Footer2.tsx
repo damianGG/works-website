@@ -23,7 +23,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-map me-2 fs-25" ></i> Adres (biuro projektu)</p>
                   <address>
-                    ul. Grzecznarowskiego 2, pok. 204 (II piętro) <br className="d-none d-md-block" /> 26-600 Radom
+                    ul. Okopowa 25, pok. 003 <br className="d-none d-md-block" /> 10-075 Olsztyn
                   </address>
                 </div>
               </div>
@@ -32,7 +32,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-phone-alt me-2 fs-25"></i>Telefon</p>
                   <p>
-                    +48 881 500 075 <br />
+                    +48 696548883 <br />
                   </p>
                 </div>
               </div>
@@ -41,14 +41,14 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-envelope fs-25 me-2 "></i> e-mail</p>
 
-                  <Link href="mailto:aktywnekobiety@jpmcg.pl" className="link-primary">
-                    aktywnekobiety@jpmcg.pl
+                  <Link href="mailto:biuro@workts.pl" className="link-primary">
+                    biuro@workts.pl
                   </Link>
                   <br className="d-none d-md-block" />
                 </div>
               </div>
               <div className="col-md-4 col-lg-3">
-                <div className="widget">
+                {/* <div className="widget">
                   <p className="widget-title fs-15 fw-bold">
                     <i className="uil uil-facebook-f fs-25" /> facebook</p>
 
@@ -57,7 +57,7 @@ export default function Footer2() {
 
                   <Link href="https://www.facebook.com/profile.php?id=61558567391191" className="link-primary" target="_blank">J&P Moritz Consulting</Link>
 
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -67,7 +67,7 @@ export default function Footer2() {
 
           </div>
         </div>
-        <p className="fs-15">J&P Moritz Consulting All Group Jacek Poproch rights reserved.</p>
+        <p className="fs-15">Work & Training Service Janusz Żuczek rights reserved.</p>
       </div>
     </footer>
   );

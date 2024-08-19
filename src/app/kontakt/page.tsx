@@ -49,13 +49,13 @@ export default function Kontakt() {
                 <div className="row">
                     <div className="col text-center">
                         <h1>Biuro Projektu</h1>
-                        <p><strong>Adres:</strong> ul. Grzecznarowskiego 2, pok. 204 (II piętro), 26-600 Radom</p>
+                        <p><strong>Adres:</strong> ul. Okopowa 25, pok. 003, 10-075 Olsztyn</p>
                         <p>Biuro projektu czynne jest od poniedziałku do piątku w godzinach 8:00 - 16:00 (istnieje możliwość umówienia się na inne godziny spotkania)</p>
-                        <p><strong>Tel:</strong> +48 881 500 075</p>
-                        <p><strong>E-mail:</strong> <a href="mailto:aktywnekobiety@jpmcg.pl" className="link-primary" target="_blank">aktywnekobiety@jpmcg.pl</a> </p>
+                        <p><strong>Tel:</strong> +48 696 548 883</p>
+                        {/* <p><strong>E-mail:</strong> <a href="mailto:aktywnekobiety@jpmcg.pl" className="link-primary" target="_blank">aktywnekobiety@jpmcg.pl</a> </p> */}
                     </div>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.7890548955743!2d21.147012361731125!3d51.38988090482032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47185eb9f9d02fad%3A0xf0f1488f81b1133d!2sAleja%20J%C3%B3zefa%20Grzecznarowskiego%202%2C%2026-606%20Radom!5e0!3m2!1spl!2spl!4v1715142817877!5m2!1spl!2spl"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d147.3567684576021!2d20.473796139686183!3d53.7768801612333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e27ed6da99889f%3A0x8d34fc46b6786c2c!2sOkopowa%2025%2C%2011-041%20Olsztyn!5e0!3m2!1spl!2spl!4v1724064079973!5m2!1spl!2spl"
                         width={600}
                         height={450}
                         style={{ border: 0 }}
@@ -65,17 +65,17 @@ export default function Kontakt() {
                 </div>
                 <div className="row mt-10">
                     <div className="col text-center">
-                        <h2>Siedziba J&P Moritz Consulting Group Jacek Poproch</h2>
-                        <p><strong>Adres: </strong> ul. Plac Solny 14 lok. 3, 50-062 Wrocław</p>
-                        <p><strong>Strona: </strong><Link href="http://jpmcg.pl" className="link-primary" target="_blank">www.jpmcg.pl</Link></p>
-                        <p><strong>Facebook: </strong><Link href="https://www.facebook.com/profile.php?id=61558567391191" className="link-primary" target="_blank">J&P</Link></p>
-                        <p><strong>Tel: </strong> +48 531 954 000</p>
-                        <p><strong>E-mail: </strong><a href="mailto:biuro@jpmcg.pl" className="link-primary" target="_blank">biuro@jpmcg.pl</a> </p>
+                        <h2>Work &amp; Training Service Janusz Żuczek</h2>
+                        <p><strong>Adres: </strong> Sielec 1A 39-120 Sędziszów Małopolski</p>
+                        <p><strong>Strona: </strong><Link href="http://workts.pl/" className="link-primary" target="_blank">www.workts.pl</Link></p>
+                        {/* <p><strong>Facebook: </strong><Link href="https://www.facebook.com/profile.php?id=61558567391191" className="link-primary" target="_blank">J&P</Link></p> */}
+                        <p><strong>Tel: </strong>17 2226951</p>
+                        <p><strong>E-mail: </strong><a href="mailto:biuro@workts.pl" className="link-primary" target="_blank">biuro@workts.pl</a> </p>
                     </div>
 
                 </div>
                 <div className="row">
-                    <div className="col text-center mb-15">
+                    {/* <div className="col text-center mb-15">
                         <Link
                             href="https://www.facebook.com/search/top/?q=%23funduszeue%20%23FunduszeEuropejskie"
                             className="link-primary" target="_blank"
@@ -83,7 +83,7 @@ export default function Kontakt() {
                             #FunduszeUE #FunduszeEuropejskie
                         </Link>
 
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

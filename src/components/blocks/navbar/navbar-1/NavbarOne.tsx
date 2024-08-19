@@ -58,7 +58,7 @@ export default function NavbarOne({
     <Fragment>
       <div className="navbar-brand w-100">
         <Link href="/" >
-          <Image
+          {/* <Image
             src={JPLogo}
 
             alt="logo firmy JP"
@@ -68,7 +68,8 @@ export default function NavbarOne({
               height: 'auto',
               maxWidth: '150px',
             }}
-          />
+          /> */}
+          <h1>WORTKS</h1>
         </Link>
       </div>
 

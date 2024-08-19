@@ -14,11 +14,12 @@ export default function About6() {
 
         <div className="col-lg-12">
 
-          <h2 className="display-4 mb-3 text-center mb-10">Zapraszamy do projektu <br></br> „Kobieta * Aktywność * Sukces”</h2>
+          <h2 className="display-4 mb-3 text-center mb-10">Rusza I tura naboru do projektu <br></br> „INTEGRACJA-ADAPTACJA!”</h2>
 
           <p className="lead fs-lg">
-            Zapraszamy niepracujące kobiety w wieku 18-59 lat, zamieszkujące miasto Radom lub gminę
-            Wieniawa do udziału w projekcie „Kobieta * Aktywność * Sukces”.
+            Zapraszamy obywateli państw trzecich, w tym migrantów oraz ich rodzin, zamieszkujące na
+            terenie województwa warmińsko-mazurskiego w wieku 18 lat i więcej do udziału w projekcie
+            „INTEGRACJA-ADAPTACJA!”.
           </p>
         </div>
       </div>
@@ -33,19 +34,23 @@ export default function About6() {
           <div className="row gy-3 ">
             <div className="col-xl-6">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li className="mt-3"><i className="uil uil-check"></i> spotkania z doradcą zawodowym</li>
-                <li className="mt-3"><i className="uil uil-check"></i>szkolenia zawodowe niezbędne w zawodach związanych z usługami zdrowotnymi i
-                  opiekuńczymi</li>
+                <li className="mt-3"><i className="uil uil-check"></i> wsparcie psychologa, prawnika oraz trenera języka polskiego</li>
+                <li className="mt-3"><i className="uil uil-check"></i>bezpłatny kurs z języka polskiego,</li>
+                <li className="mt-3"><i className="uil uil-check"></i>wsparcie uczestników w obszarze dostarczania praktycznych informacji dot. różnych
+                  aspektów życia w Polsce oraz kontaktów z lokalnymi instytucjami i społecznością lokalną,</li>
+                <li className="mt-3"><i className="uil uil-check"></i>wsparcie tłumacza,</li>
+                <li className="mt-3"><i className="uil uil-check"></i>szkolenie z zakresu &quot;zielonych umiejętności&quot; dot. zrównoważonego rozwoju,</li>
 
               </ul>
             </div>
             <div className="col-xl-6">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li className="mt-3"><i className="uil uil-check"></i>stypendium szkoleniowe za udział w każdym kursie</li>
-                <li className="mt-3"><i className="uil uil-check"></i>wyżywienie w trakcie szkoleń</li>
-                <li className="mt-3"><i className="uil uil-check"></i>możliwość zwrotu kosztów dojazdu</li>
-                <li className="mt-3"><i className="uil uil-check"></i>możliwość zwrotu kosztów opieki nad osobą wymagającą wsparcia w codziennym
-                  funkcjonowaniu.</li>
+                <li className="mt-3"><i className="uil uil-check"></i>obiad i przerwa kawowa w trakcie szkoleń</li>
+                <li className="mt-3"><i className="uil uil-check"></i>bezpłatne materiały szkoleniowe,</li>
+                <li className="mt-3"><i className="uil uil-check"></i>zwrot kosztów dojazdu na szkolenia</li>
+                <li className="mt-3"><i className="uil uil-check"></i>zwrot kosztów opieki nad dzieckiem lub osobą wymagającą wsparcia w codziennym
+                  funkcjonowaniu</li>
+                <li className="mt-3"><i className="uil uil-check"></i>ubezpieczenia społeczne, zdrowotne i NNW</li>
               </ul>
             </div>
             <p className="text-center fs-20 mt-15">Udział w projekcie jest bezpłatny.</p>
@@ -55,26 +60,29 @@ export default function About6() {
 
         <div className="col-lg-12">
           <p className="lead fs-lg">
-            W Projekcie mogą uczestniczyć kobiety spełniające następujące warunki:
+            W projekcie mogą uczestniczyć osoby, które spełniają następujące kryteria:
           </p>
           <div className="row gy-3 ">
             <div className="col-xl-12">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li><i className="uil uil-check"></i> wiek 18-59 lat</li>
-                <li className="mt-3"><i className="uil uil-check"></i>zamieszkiwanie: miasto Radom lub gmina Wieniawa</li>
-                <li className="mt-3"><i className="uil uil-check"></i>osoba bierna zawodowa – osoba, która w danej chwili nie tworzy zasobów siły
-                  roboczej (tzn. nie jest osobą pracującą ani bezrobotną); w tym m.in.: studenci studiów
-                  stacjonarnych</li>
+                <li><i className="uil uil-check"></i> Osoba w wieku 18 lat i więcej,</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Osoba zamieszkujące na terenie województwa warmińsko-mazurskiego,</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Osoba bezrobotna,</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Osoba bierna zawodowo,</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Osoba pracujące,</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Obywateli państw trzecich, w tym migrantów oraz ich rodzin.</li>
               </ul>
             </div>
 
-            <p className="">Do wzięcia udziału w projekcie zapraszamy wszystkich chętnych spełniających wyżej
-              wymienione kryteria, a w szczególności bierne zawodowo kobiety w wieku 18-29 lat, które
-              posiadają wykształcenie ponadgimnazjalne lub niższe.</p>
-            <p className="">Komplet dokumentów rekrutacyjnych (patrz zakładka „Rekrutacja”) można składać osobiście
-              w Biurze Projektu bądź przesyłać je drogą pocztową, kurierem lub e-mailem.</p>
+            <p className="mt-10">Do wzięcia udziału w projekcie zapraszamy wszystkich chętnych spełniających wyżej
+              wymienione kryteria, a w szczególności <strong> osoby, które po agresji Federacji Rosyjskiej na
+                Ukrainę zostały objęte w Polsce ochroną czasową, kobiety, osoby z niepełnosprawnością.</strong></p>
+            <p className="">Komplet dokumentów rekrutacyjnych (patrz zakładka „<a className="link-primary" href="/rekrutacja"> Rekrutacja</a>”) można składać osobiście
+              w Biurze Projektu bądź przesyłać je drogą pocztową lub e-mailem.</p>
 
-
+            <p>I tura rekrutacji trwa od 01.07.2024 r. – 31.08.2024 r.</p>
+            <p>Aby uzyskać więcej informacji prosimy o kontakt z Biurem projektu – patrz zakładka
+              <a className="link-primary" href="/kontakt"> Kontakt</a></p>
           </div>
 
         </div>

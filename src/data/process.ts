@@ -17,20 +17,41 @@ export const processList1 = [
   {
     no: "1",
     className: "me-lg-6",
-    title: "kobiety w wieku 18 - 59 lat",
+    title: "Osoba w wieku 18 lat i więcej",
     subtitle: "",
     shadow: true
   },
   {
     no: "2",
-    title: "bierne zawodowo",
+    title: "Osoba zamieszkujące na terenie województwa warmińsko-mazurskiego",
     className: "me-lg-6 mt-6",
     shadow: true,
-    subtitle: "bierne zawodowo osoba, która w danej chwili nie tworzy zasobów siły roboczej (tzn. nie jest osobą pracującą ani bezrobotną)"
+    subtitle: ""
   },
   {
     no: "3",
-    title: "mieszkające w Radomiu (68 os.) lub gminie Wieniawa (4 os.)",
+    title: "Osoba bezrobotna",
+    className: "me-lg-6 mt-6",
+    subtitle: "",
+    shadow: true
+  },
+  {
+    no: "4",
+    title: "Osoba bierna zawodowo,",
+    className: "me-lg-6 mt-6",
+    subtitle: "",
+    shadow: true
+  },
+  {
+    no: "5",
+    title: "Osoba pracujące,",
+    className: "me-lg-6 mt-6",
+    subtitle: "",
+    shadow: true
+  },
+  {
+    no: "6",
+    title: "Obywateli państw trzecich, w tym migrantów oraz ich rodzin.",
     className: "me-lg-6 mt-6",
     subtitle: "",
     shadow: true
@@ -48,31 +69,31 @@ export const doPobrania = [
   },
   {
     no: "2",
-    title: "Zaświadczenie z ZUS poświadczające status osoby jako bezrobotnej/biernej zawodowo lub potwierdzenie wygenerowania z Platformy Usług Elektronicznych ZUS (PUE ZUS) potwierdzające status danej osoby w dniu jego wydania",
+    title: "Kopia dokumentu potwierdzającego obywatelstwo",
     className: "me-lg-6 mt-6 text-start",
-    subtitle: "",
+    subtitle: "tj. np. paszport, wiza, karta stałego/czasowego pobytu (w przypadku braku polskiego obywatelstwa);",
     shadow: true
   },
   {
     no: "3",
-    title: "Kopia dokumentu potwierdzającego obywatelstwo tj. np. paszport, wiza, karta stałego/czasowego pobytu (w przypadku braku polskiego obywatelstwa);",
+    title: "Dokument potwierdzający miejsce zamieszkania na terenie województwa Warmińsko-Mazurskiego",
     className: "me-lg-6 mt-6 text-start",
-    subtitle: "",
+    subtitle: "(np. zaświadczenie z Urzędu Miasta/Gminy lub deklaracja za śmieci lub akt własności lokalu mieszkalnego lub umowa najmu lokalu mieszkalnego lub PIT lub faktura np. za telefon (gdzie wskazany jest adresem miejsca zamieszkania) lub w przypadku osób pobierających np. 800 plus lub bon żłobkowy lub świadczenia z rodzinnego kapitału opiekuńczego -  decyzji wydanej w tej sprawie gdzie wskazano adres miejsca zamieszkania wnioskodawcy lub dokument z ZUS potwierdzający zgłoszenie do ubezpieczeń i miejsce zamieszkania uczestniczki projektu);",
     shadow: true
   },
   {
     no: "4",
-    title: "Dokument potwierdzający miejsce zamieszkania na terenie miasta Radom lub gminy Wieniawa ",
+    title: "Orzeczenie o stopniu niepełnosprawności",
     className: "me-lg-6 mt-6 text-start",
     shadow: true,
-    subtitle: "(np. zaświadczenie z Urzędu Miasta/Gminy lub deklaracja za śmieci lub akt własności lokalu mieszkalnego lub umowa najmu lokalu mieszkalnego lub PIT lub faktura np. za telefon (gdzie wskazany jest adresem miejsca zamieszkania) lub  w przypadku osób pobierających np. 800 plus lub bon żłobkowy lub świadczenia z rodzinnego kapitału opiekuńczego -  decyzji wydanej w tej sprawie gdzie wskazano adres miejsca zamieszkania wnioskodawcy lub dokument  z ZUS potwierdzający zgłoszenie do ubezpieczeń i miejsce zamieszkania Uczestniczki projektu);"
+    subtitle: "niepełnosprawności w rozumieniu ustawy z dnia 27 sierpnia 1997 r. o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (Dz. U. z 2023 r. poz. 100, z późn. zm.) lub orzeczenia albo innego dokumentu, o którym mowa w ustawie z dnia 19 sierpnia 1994 o ochronie zdrowia psychicznego (Dz. U. z 2022 r. poz. 2123)(jeśli dotyczy);"
   },
   {
     no: "5",
-    title: "Orzeczenie o stopniu niepełnosprawności ",
+    title: "Oświadczenie o kryzysie bezdomności lub dotknięciu wykluczeniem z dostępu domieszkań (jeśli dotyczy);",
     className: "me-lg-6 mt-6 text-start",
     shadow: true,
-    subtitle: "w rozumieniu ustawy z dnia 27 sierpnia 1997 r. o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (Dz. U. z 2023 r. poz. 100, z późn. zm.) lub orzeczenia albo innego dokumentu, o którym mowa w ustawie z dnia 19 sierpnia 1994 r. o ochronie zdrowia psychicznego (Dz. U. z 2022 r. poz. 2123)(jeśli dotyczy);"
+    subtitle: ""
   },
   {
     no: "6",
@@ -83,9 +104,9 @@ export const doPobrania = [
   },
   {
     no: "7",
-    title: "Klauzula informacyjna Instytucji Zarządzającej ",
+    title: "Klauzula informacyjna Instytucji Zarządzającej",
     className: "me-lg-6 mt-6 text-start",
-    subtitle: "załącznik nr 2 do Regulaminu rekrutacji i uczestnictwa w projekcie",
+    subtitle: "załącznik nr 2 do Regulaminu rekrutacji i uczestnictwa w projekcie; - obligatoryjnie",
     shadow: true,
   },
   ,
