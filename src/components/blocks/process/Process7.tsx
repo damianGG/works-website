@@ -6,7 +6,7 @@ import Link from "next/link";
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 export async function getStrapiData() {
-  const response = await fetch(`${backendLink}/api/dokumenties?sort=rank:asc&populate=*`, {
+  const response = await fetch(`${backendLink}/api/dokumentys-workts?sort=rank:asc&populate=*`, {
     cache: 'no-store',
     method: 'GET',
     headers: {
@@ -127,7 +127,7 @@ export default async function Process7() {
                 <DownloadList
                   title={item.attributes.tytul}
                   link1={item.attributes.kolorowy.data[0]?.attributes.url}
-                  link2={item.attributes.czarnobialy.data?.attributes.url}
+                  link2={item.attributes.czarnobialy.data[0]?.attributes.url}
                   key={item.id}
                   className="mb-5"
                 />
