@@ -52,7 +52,7 @@ export default function Kontakt() {
                         <p><strong>Adres:</strong> ul. Okopowa 25, pok. 003, 10-075 Olsztyn</p>
                         <p>Biuro projektu czynne jest od poniedziałku do piątku w godzinach 8:00 - 16:00 (istnieje możliwość umówienia się na inne godziny spotkania)</p>
                         <p><strong>Tel:</strong> +48 696 548 883</p>
-                        {/* <p><strong>E-mail:</strong> <a href="mailto:aktywnekobiety@jpmcg.pl" className="link-primary" target="_blank">aktywnekobiety@jpmcg.pl</a> </p> */}
+                        <p><strong>E-mail:</strong> <a href="mailto:integracjaadaptacja@workts.pl" className="link-primary" target="_blank">integracjaadaptacja@workts.pl</a> </p>
                     </div>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d147.3567684576021!2d20.473796139686183!3d53.7768801612333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e27ed6da99889f%3A0x8d34fc46b6786c2c!2sOkopowa%2025%2C%2011-041%20Olsztyn!5e0!3m2!1spl!2spl!4v1724064079973!5m2!1spl!2spl"

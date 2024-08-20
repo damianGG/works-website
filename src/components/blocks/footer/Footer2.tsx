@@ -41,8 +41,8 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-envelope fs-25 me-2 "></i> e-mail</p>
 
-                  <Link href="mailto:biuro@workts.pl" className="link-primary">
-                    biuro@workts.pl
+                  <Link href="mailto:integracjaadaptacja@workts.pl" className="link-primary">
+                    integracjaadaptacja@workts.pl
                   </Link>
                   <br className="d-none d-md-block" />
                 </div>

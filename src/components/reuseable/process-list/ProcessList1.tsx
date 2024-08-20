@@ -26,7 +26,7 @@ export default function ProcessList1({ no, title, subtitle, className, shadow }:
             </span>
           </div>
 
-          <div>
+          <div className="align-content-center">
             <h4 className="mb-1">{title}</h4>
             <p className="mb-0">{subtitle}</p>
           </div>
