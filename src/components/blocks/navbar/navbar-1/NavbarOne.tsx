@@ -61,7 +61,7 @@ export default function NavbarOne({
           <Image
             src={JPLogo}
 
-            alt="logo firmy JP"
+            alt="logo work&training"
 
             style={{
               width: '100%',
@@ -75,17 +75,17 @@ export default function NavbarOne({
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         <div className="offcanvas-header d-lg-none">
-          <h3 className="text-white fs-30 mb-0">J&P</h3>
+          <h3 className="text-white fs-30 mb-0"></h3>
           <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-white" />
         </div>
 
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
           <ul className="navbar-nav ">
             {/* <PagesNavItem /> */}
-            <li><Link className="nav-link fs-20" href="/o-projekcie">O Projekcie</Link></li>
-
-            <li><Link className="nav-link fs-20" href="/aktualnosci">Aktualności</Link></li>
-            <li><Link className="nav-link fs-20" href="/rekrutacja">Rekrutacja</Link></li>
+            <li><Link className="nav-link fs-20" href="/o-nas">O nas</Link></li>
+            <li><Link className="nav-link fs-20" href="/szkolenia">Szkolenia</Link></li>
+            <li><Link className="nav-link fs-20" href="/projekty">Projekty</Link></li>
+            <li><Link className="nav-link fs-20" href="/kursy">Kursy</Link></li>
             <li><Link className="nav-link fs-20" href="/kontakt">Kontakt</Link></li>
           </ul>
 
@@ -119,7 +119,7 @@ export default function NavbarOne({
 
   return (
     <Fragment>
-      <Toplogo />
+      {/* <Toplogo /> */}
       {stickyBox ? <div style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }} /> : null}
 
       <nav ref={navbarRef} className={sticky ? fixedClassName : navClassName}>

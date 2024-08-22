@@ -31,7 +31,7 @@ export default function RootLayout({
       </head>
       <body className={manrope.className}>
 
-        <NavbarOne button={<Link title="Contact" href="/rekrutacja" className="btn btn-sm btn-primary rounded-pill">Zapisz się</Link>} />
+        <NavbarOne />
         <AccessibilityButton />
         <div>{children}</div>
         <Footer2 />

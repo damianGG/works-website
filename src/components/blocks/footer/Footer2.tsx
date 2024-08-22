@@ -21,9 +21,9 @@ export default function Footer2() {
 
               <div className="col-md-3">
                 <div className="widget">
-                  <p className="widget-title fs-15 fw-bold"><i className="uil uil-map me-2 fs-25" ></i> Adres (biuro projektu)</p>
+                  <p className="widget-title fs-15 fw-bold"><i className="uil uil-map me-2 fs-25" ></i> Adres</p>
                   <address>
-                    ul. Okopowa 25, pok. 003 <br className="d-none d-md-block" /> 10-075 Olsztyn
+                    Sielec 1A <br className="d-none d-md-block" /> 39-120 Sędziszów Małopolski
                   </address>
                 </div>
               </div>
@@ -32,7 +32,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-phone-alt me-2 fs-25"></i>Telefon</p>
                   <p>
-                    +48 696548883 <br />
+                    +48 696 548 883 <br />
                   </p>
                 </div>
               </div>
@@ -41,8 +41,8 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-envelope fs-25 me-2 "></i> e-mail</p>
 
-                  <Link href="mailto:integracjaadaptacja@workts.pl" className="link-primary">
-                    integracjaadaptacja@workts.pl
+                  <Link href="mailto:biuro@workts.pl" className="link-primary">
+                    biuro@workts.pl
                   </Link>
                   <br className="d-none d-md-block" />
                 </div>
