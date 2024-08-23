@@ -13,8 +13,8 @@ import AccessibilityButton from "@/components/reuseable/AccessibilityButton";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Projekt INTEGRACJA-ADAPTACJA!",
-  description: "INTEGRACJA-ADAPTACJA!",
+  title: "Work & Training service",
+  description: "",
 };
 
 export default function RootLayout({
