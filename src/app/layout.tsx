@@ -9,7 +9,6 @@ import Link from "next/link";
 import AccessibilityButton from "@/components/reuseable/AccessibilityButton";
 
 
-
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -27,7 +26,7 @@ export default function RootLayout({
 
     <html lang="pl" data-bs-theme="light">
       <head>
-        <link rel="icon" type="image/x-icon" sizes="16x16" href="/img/favicon.ico" />
+        <link rel="icon" type="image/x-icon" sizes="16x16" href="/favicon.ico" />
       </head>
       <body className={manrope.className}>
 
