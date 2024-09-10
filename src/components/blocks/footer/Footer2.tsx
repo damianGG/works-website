@@ -67,7 +67,7 @@ export default function Footer2() {
 
           </div>
         </div>
-        <p className="fs-15">Work & Training Service Janusz Żuczek rights reserved.</p>
+        <p className="fs-15">Work & Training Service Sp. z o.o. rights reserved.</p>
       </div>
     </footer>
   );
