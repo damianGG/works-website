@@ -93,7 +93,8 @@ export default async function News() {
                         <div className="card news-card">
                             <div className="card-body">
                                 <div className="post-header">
-                                    <h2 className="post-title h3 mt-1 mb-3">Zawodowy reSTART!</h2>
+                                    <h2 className="post-title h3 mt-1 mb-3">„INTEGRACJA-ADAPTACJA!”</h2>
+                                    <h3><a href="https://integracja-adaptacja.pl">integracja-adaptacja.pl</a></h3>
                                 </div>
                                 <div className="post-content">
                                     <p></p>
@@ -101,58 +102,7 @@ export default async function News() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4" >
-                        <div className="card news-card">
-                            <div className="card-body">
-                                <div className="post-header">
-                                    <h2 className="post-title h3 mt-1 mb-3">Praca Przyszłości</h2>
-                                </div>
-                                <div className="post-content">
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
 
-                    </div>
-                    <div className="col-md-4" >
-                        <div className="card news-card">
-                            <div className="card-body">
-                                <div className="post-header">
-                                    <h2 className="post-title h3 mt-1 mb-3">Zatrudnienie zawsze w cenie</h2>
-                                </div>
-                                <div className="post-content">
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="col-md-4" >
-                        <div className="card news-card">
-                            <div className="card-body">
-                                <div className="post-header">
-                                    <h2 className="post-title h3 mt-1 mb-3">ŚWIADOMY ROZWÓJ ZAWODOWY! program podnoszenia kompetencji, kwalifikacji i umiejętności zawodowych mieszkańców woj. warmińsko-mazurskiego</h2>
-                                </div>
-                                <div className="post-content">
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4" >
-                        <div className="card news-card">
-                            <div className="card-body">
-                                <div className="post-header">
-                                    <h2 className="post-title h3 mt-1 mb-3">KARIERA OD ZERA! – program wspierania osób powyżej 29 lat pozostających bez pracy i defaworyzowanych na wielkopolskim rynku pracy</h2>
-                                </div>
-                                <div className="post-content">
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
                 </div>
 
 

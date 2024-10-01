@@ -32,17 +32,15 @@ export default function About6() {
           <div className="row gy-3 ">
             <div className="col-xl-12">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li className="mt-3"><i className="uil uil-check"></i>Aktywizacja zawodowa: Realizujemy kompleksowe projekty z zakresu aktywizacji zawodowej, w tym doradztwo, wsparcie psychologiczne, pośrednictwo pracy, szkolenia oraz staże.</li>
-                <li className="mt-3"><i className="uil uil-check"></i>Szkolenia i kursy: Oferujemy bogaty wachlarz szkoleń i kursów dostosowanych do potrzeb zarówno firm, jak i klientów indywidualnych.</li>
-                <li className="mt-3"><i className="uil uil-check"></i>Usługi doradcze: Wspieramy firmy i pracowników w rozwoju kompetencji, pomagając w budowaniu silnych zespołów oraz efektywnych strategii rozwoju.</li>
-                <li className="mt-3"><i className="uil uil-check"></i>Ekspercka kadra: Współpracujemy z doświadczonymi specjalistami, którzy dzielą się swoją wiedzą i praktycznymi umiejętnościami.</li>
-                <li className="mt-3"><i className="uil uil-check"></i>Nowoczesne narzędzia: Korzystamy z innowacyjnych metod szkoleniowych, zapewniając najwyższą jakość i efektywność prowadzonych zajęć.</li>
-                <li className="mt-3"><i className="uil uil-check"></i>Komfortowe warunki nauki: Zajęcia odbywają się w nowoczesnych salach szkoleniowych, w dogodnych lokalizacjach, co sprzyja komfortowi i skuteczności nauki.</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Aktywizacja zawodowa: realizujemy kompleksowe projekty z zakresu aktywizacji zawodowej, w tym doradztwo, wsparcie psychologiczne, pośrednictwo pracy, szkolenia oraz staże.</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Szkolenia i kursy: oferujemy bogaty wachlarz szkoleń i kursów dostosowanych do potrzeb zarówno firm, jak i klientów indywidualnych.</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Usługi doradcze: wspieramy firmy i pracowników w rozwoju kompetencji, pomagając w budowaniu silnych zespołów oraz efektywnych strategii rozwoju.</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Ekspercka kadra: współpracujemy z doświadczonymi specjalistami, którzy dzielą się swoją wiedzą i praktycznymi umiejętnościami.</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Nowoczesne narzędzia: korzystamy z innowacyjnych metod szkoleniowych, zapewniając najwyższą jakość i efektywność prowadzonych zajęć.</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Komfortowe warunki nauki: zajęcia odbywają się w nowoczesnych salach szkoleniowych, w dogodnych lokalizacjach, co sprzyja komfortowi i skuteczności nauki.</li>
 
               </ul>
             </div>
-
-            <p className="text-center fs-20 mt-15">Udział w projekcie jest bezpłatny.</p>
           </div>
 
         </div>
@@ -54,10 +52,9 @@ export default function About6() {
           <div className="row gy-3 ">
             <div className="col-xl-12">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li><i className="uil uil-check"></i> Certyfikowane usługi: Jesteśmy zarejestrowani w Rejestrze Instytucji Szkoleniowych (RIS) oraz w Krajowym Rejestrze Agencji Zatrudnienia (KRAZ).</li>
-                <li className="mt-3"><i className="uil uil-check"></i>Indywidualne podejście: Każdy program szkoleniowy dostosowujemy do specyficznych potrzeb uczestników, co pozwala na osiągnięcie zamierzonych celów.</li>
-                <li className="mt-3"><i className="uil uil-check"></i>Praktyczne umiejętności: Kładziemy nacisk na przekazywanie wiedzy, która jest natychmiastowo użyteczna w codziennej pracy.</li>
-
+                <li><i className="uil uil-check"></i> Certyfikowane usługi: jesteśmy zarejestrowani w Rejestrze Instytucji Szkoleniowych (RIS) oraz w Krajowym Rejestrze Agencji Zatrudnienia (KRAZ).</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Indywidualne podejście: każdy program szkoleniowy dostosowujemy do specyficznych potrzeb uczestników, co pozwala na osiągnięcie zamierzonych celów.</li>
+                <li className="mt-3"><i className="uil uil-check"></i>Praktyczne umiejętności: kładziemy nacisk na przekazywanie wiedzy, która jest natychmiastowo użyteczna w codziennej pracy.</li>
               </ul>
             </div>
 

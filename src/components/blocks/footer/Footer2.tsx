@@ -61,7 +61,7 @@ export default function Footer2() {
               </div>
             </div>
 
-            <p>Biuro projektu czynne jest od poniedziałku do piątku w godzinach 8:00 – 16:00
+            <p>Biuro czynne jest od poniedziałku do piątku w godzinach 8:00 – 16:00
 
               (istnieje możliwość umówienia się na inne godziny spotkania)</p>
 
